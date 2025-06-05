@@ -1,6 +1,8 @@
 module github.com/codeaucafe/snippetbox/greenlight
 
-go 1.18
+go 1.23.0
+
+toolchain go1.24.1
 
 require (
 	github.com/felixge/httpsnoop v1.0.3
@@ -13,6 +15,7 @@ require (
 )
 
 require (
+	golang.org/x/exp v0.0.0-20250506013437-ce4c2cf36ca6 // indirect
 	gopkg.in/alexcesaro/quotedprintable.v3 v3.0.0-20150716171945-2caba252f4dc // indirect
 	gopkg.in/mail.v2 v2.3.1 // indirect
 )

@@ -57,6 +57,7 @@ type config struct {
 	cors struct {
 		trustedOrigins []string
 	}
+	openaiKey string
 }
 
 // Define an application struct to hold dependencies for our HTTP handlers, helpers, and
@@ -122,6 +123,11 @@ func main() {
 	})
 
 	displayVersion := flag.Bool("version", false, "Display version and exit")
+
+	flag.StringVar(&cfg.openaiKey, "openaiKey", "", "SMTP host")
+	flag.StringVar(&cfg.db.dsn, "db-dsn",
+		fmt.Sprintf("postgres://greenlight:%s@localhost/greenlight?sslmode=disable",
+			pw), "PostgreSQL DSN")
 
 	flag.Parse()
 

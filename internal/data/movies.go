@@ -31,9 +31,10 @@ type Movie struct {
 // MovieModel struct wraps a sql.DB connection pool and allows us to work with Movie struct type
 // and the movies table in our database.
 type MovieModel struct {
-	DB       *sql.DB
-	InfoLog  *log.Logger
-	ErrorLog *log.Logger
+	DB        *sql.DB
+	OpenAIKey string
+	InfoLog   *log.Logger
+	ErrorLog  *log.Logger
 }
 
 // Insert accepts a pointer to a movie struct, which should contain the data for the

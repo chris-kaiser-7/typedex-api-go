@@ -1,0 +1,1417 @@
+2025/06/03 20:22:56 {list [{msg_KfuWDB8gJqvRcRVjEaHZPlIG thread.message 1748996570 0xc0003a4110 thread_hLJ3GNRfDgtZYE7Kz9ld5JRt 0xc0003a4120 assistant [{text {```json
+[
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "85",
+        "size": "Small",
+        "habitat": "Dark caves and subterranean tunnels",
+        "description": "Cave Goblins are adept at navigating through the darkness of their subterranean homes. They have excellent night vision and are skilled at setting traps to fend off intruders."
+    },
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "90",
+        "size": "Small",
+        "habitat": "Dense forested areas",
+        "description": "Forest Goblins are known for their agility and speed in the woodlands. They are skilled climbers and often use their environment to ambush unwary travelers."
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "95",
+        "size": "Small",
+        "habitat": "Swampy marshlands",
+        "description": "Swamp Goblins have adapted to the murky wetlands they call home. They are excellent swimmers and can hold their breath underwater for extended periods, making them deadly in their watery territory."
+    }
+]
+``` []}}] [] map[]} {msg_fOdJ6DTQagQ4h1VI7nm8ST2Y thread.message 1748996568 <nil> thread_hLJ3GNRfDgtZYE7Kz9ld5JRt <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_KfuWDB8gJqvRcRVjEaHZPlIG msg_fOdJ6DTQagQ4h1VI7nm8ST2Y false {  <nil> }}
+2025/06/03 20:30:29 {list [{msg_OScr1J6c4hm1TJtA2Zx9mPJV thread.message 1748997024 0xc000276290 thread_NrPdMOcEd2BrjCTpGO4qa9Q4 0xc0002762a0 assistant [{text {```json
+[
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "30",
+        "size": "Small",
+        "habitat": "Forests",
+        "description": "Forest Goblins are adept at hiding among the trees, using their small size and agility to their advantage. They are known for their cunning and are often seen using traps and guerrilla tactics to fend off intruders."
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "35",
+        "size": "Small",
+        "habitat": "Caves and underground tunnels",
+        "description": "Cave Goblins are well adapted to life underground, with keen hearing and excellent night vision. They are often found in large groups and are skilled at navigating the complex networks of tunnels they call home."
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "25",
+        "size": "Small",
+        "habitat": "Swamps and marshlands",
+        "description": "Swamp Goblins are known for their resilience and ability to thrive in wet, muddy environments. They have developed an affinity for poisons and are often seen crafting noxious concoctions to defend their territory."
+    }
+]
+``` []}}] [] map[]} {msg_ZAESIvR4lvI5D9W0qMJ4po0h thread.message 1748997021 <nil> thread_NrPdMOcEd2BrjCTpGO4qa9Q4 <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_OScr1J6c4hm1TJtA2Zx9mPJV msg_ZAESIvR4lvI5D9W0qMJ4po0h false {  <nil> }}
+2025/06/03 20:37:20 {list [{msg_YexarJP8bVlvQKm8K2U8RkpI thread.message 1748997434 0xc00014e620 thread_XnSAyekvXe8rr0BjJWrw7gqb 0xc00014e630 assistant [{text {```json
+[
+    {
+        "name": "Hobgoblin",
+        "race": "Goblin",
+        "health": "25",
+        "size": "Medium",
+        "habitat": "Forests and Underground",
+        "description": "Hobgoblins are larger, more disciplined goblins with an innate sense of military tactics. They often organize other goblins and orcs into forces for battle."
+    },
+    {
+        "name": "Bugbear",
+        "race": "Goblin",
+        "health": "30",
+        "size": "Large",
+        "habitat": "Caves and Ruins",
+        "description": "Bugbears are brute and fearsome goblins, known for their strength and stealth. They often act as enforcers in goblin tribes, relying on their brutal force and cunning."
+    },
+    {
+        "name": "Nilbog",
+        "race": "Goblin",
+        "health": "15",
+        "size": "Small",
+        "habitat": "Magical Forests",
+        "description": "Nilbogs are chaotic goblins blessed or cursed with unpredictable magical abilities. They are usually pranksters that can destabilize the order in goblin society with their antics."
+    }
+]
+``` []}}] [] map[]} {msg_WaKLI5jwPAtqi8XnEqp6vLKd thread.message 1748997431 <nil> thread_XnSAyekvXe8rr0BjJWrw7gqb <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_YexarJP8bVlvQKm8K2U8RkpI msg_WaKLI5jwPAtqi8XnEqp6vLKd false {  <nil> }}
+2025/06/03 20:37:43 {list [{msg_AHvq0y0r4EYhYGeyZyLUXExN thread.message 1748997459 0xc000396130 thread_qchV894Y4xtG3FNvs32540nA 0xc000396140 assistant [{text {```json
+[
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "10",
+        "size": "Small",
+        "habitat": "Forest",
+        "description": "Forest Goblins are adept at navigating dense woods and are known for their green skin that provides camouflage among the foliage. They are agile and often use their surroundings to set traps for intruders."
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "12",
+        "size": "Small",
+        "habitat": "Cave",
+        "description": "Cave Goblins have adapted to life underground with enhanced night vision and a tolerance for darkness. Their skin is often grey or pale, reflecting their subterranean environment. They are known to scavenge and hoard treasures they find in the deep."
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "11",
+        "size": "Small",
+        "habitat": "Swamp",
+        "description": "Swamp Goblins thrive in wetland environments where they can use their natural affinity for water to their advantage. They are often seen covered in mud and plant matter, and they have a reputation for being slippery and difficult to catch."
+    }
+]
+``` []}}] [] map[]} {msg_Jr76VUysQpQMI2us0mNajzPt thread.message 1748997457 <nil> thread_qchV894Y4xtG3FNvs32540nA <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_AHvq0y0r4EYhYGeyZyLUXExN msg_Jr76VUysQpQMI2us0mNajzPt false {  <nil> }}
+2025/06/03 20:41:43 {list [{msg_Uc2i8XvJniURKfay9pKN1BaL thread.message 1748997698 0xc000500570 thread_WBf9BhGiCS3KlPKx2VAz6b1q 0xc000500580 assistant [{text {```json
+[
+  {
+    "name": "Forest Goblin",
+    "race": "Goblin",
+    "health": "35",
+    "size": "Small",
+    "habitat": "Forests",
+    "description": "Forest Goblins are small, green-skinned creatures that dwell in dense woodlands. They are skilled in stealth and ambush tactics, using the terrain to their advantage."
+  },
+  {
+    "name": "Mountain Goblin",
+    "race": "Goblin",
+    "health": "45",
+    "size": "Small",
+    "habitat": "Mountains and Caves",
+    "description": "Mountain Goblins are robust and hardy, adapted to life in rocky and mountainous regions. They are known for their resourcefulness in utilizing their challenging environment for survival."
+  },
+  {
+    "name": "Swamp Goblin",
+    "race": "Goblin",
+    "health": "40",
+    "size": "Small",
+    "habitat": "Swamps and Marshlands",
+    "description": "Swamp Goblins are adept at navigating the treacherous terrain of swamps. They often have a knack for setting traps and using poison, making them formidable foes in their native habitat."
+  }
+]
+``` []}}] [] map[]} {msg_wb1IPwPYLl2BttwboivV8XJu thread.message 1748997696 <nil> thread_WBf9BhGiCS3KlPKx2VAz6b1q <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_Uc2i8XvJniURKfay9pKN1BaL msg_wb1IPwPYLl2BttwboivV8XJu false {  <nil> }}
+2025/06/03 20:45:11 {list [{msg_NDfI58AwKaNerJStvFtt9eLi thread.message 1748997906 0xc000388310 thread_CWHpzJyGEr6rOY38iuWwbOJF 0xc000388320 assistant [{text {```json
+[
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "25 HP",
+        "size": "Small",
+        "habitat": "Dense forests",
+        "description": "Forest Goblins are adept at hiding and navigating in woods. They have green skin which helps them camouflage amidst the foliage.",
+        "diet": "Omnivorous, often hunt small animals and foraging plants",
+        "weaknesses": "Fire and bright light"
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "30 HP",
+        "size": "Small",
+        "habitat": "Caves and underground tunnels",
+        "description": "Cave Goblins have adapted to life in the dark, with pale skin and heightened senses for navigation in tunnels.",
+        "diet": "Carnivorous, mostly subsisting on cave creatures",
+        "weaknesses": "Sunlight and loud noises"
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "28 HP",
+        "size": "Small",
+        "habitat": "Swamps and marshlands",
+        "description": "Swamp Goblins have a murky, slimy skin tone and are skilled at moving through swampy environments.",
+        "diet": "Omnivorous, eat swamp fish and amphibians",
+        "weaknesses": "Cold and dry environments"
+    }
+]
+``` []}}] [] map[]} {msg_ZSo22FBN0G9lWTbkNi7vL8yB thread.message 1748997903 <nil> thread_CWHpzJyGEr6rOY38iuWwbOJF <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_NDfI58AwKaNerJStvFtt9eLi msg_ZSo22FBN0G9lWTbkNi7vL8yB false {  <nil> }}
+2025/06/03 20:55:54 {list [{msg_deo7jrWneKu8jXOZ2RZttJWU thread.message 1748998548 0xc00051c240 thread_XyXEWeox93ZNbZhh7NtLULGW 0xc00051c250 assistant [{text {```json
+[
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "20",
+        "size": "Small",
+        "habitat": "Dark caves and underground tunnels",
+        "description": "Cave Goblins are adept at navigating dark and narrow passages. They have a keen sense of smell and hearing, which helps them to detect intruders.",
+        "diet": "Insects, fungi, and small mammals",
+        "weaknesses": "Sunlight and bright lights"
+    },
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "25",
+        "size": "Small to medium",
+        "habitat": "Dense forests and wooded areas",
+        "description": "Forest Goblins are agile and quick, perfect for moving through vegetation without being seen. They often live in treehouses or burrows.",
+        "diet": "Fruits, nuts, and small animals",
+        "weaknesses": "Fire and deforestation"
+    },
+    {
+        "name": "Mountain Goblin",
+        "race": "Goblin",
+        "health": "30",
+        "size": "Medium",
+        "habitat": "Mountainous regions and rocky cliffs",
+        "description": "Mountain Goblins are strong and resilient with a knack for climbing and surviving in high altitudes. They have rough, textured skin to protect against the elements.",
+        "diet": "Goats, sheep, and mountain herbs",
+        "weaknesses": "Avalanches and altitude sickness"
+    }
+]
+``` []}}] [] map[]} {msg_7CWCQGbFqy0ng6YQ9U0Waf2K thread.message 1748998546 <nil> thread_XyXEWeox93ZNbZhh7NtLULGW <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_deo7jrWneKu8jXOZ2RZttJWU msg_7CWCQGbFqy0ng6YQ9U0Waf2K false {  <nil> }}
+2025/06/03 21:12:55 {list [{msg_VWOQG30kUOWCnso3CRLpDkuA thread.message 1748999567 0xc00023a2e0 thread_5zqj4oTD9riQ1CJkmc46M9y8 0xc00023a2f0 assistant [{text {```json
+[
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "25 HP",
+        "size": "Small",
+        "habitat": "Swamps",
+        "description": "Swamp Goblins are adapted to murky and wet environments. They have webbed feet and hands to help them navigate through the muddy waters of their home.",
+        "diet": "Omnivorous, feeding on fish, insects, and plant matter.",
+        "weaknesses": "Fire, as it dries out their swampy skin and causes dehydration."
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "30 HP",
+        "size": "Small",
+        "habitat": "Cave systems",
+        "description": "Cave Goblins are known for their pale skin and excellent night vision. They thrive in the dark, navigating intricate cave systems with ease.",
+        "diet": "Carnivorous, primarily eating bats, insects, and small mammals.",
+        "weaknesses": "Bright light, which can temporarily blind them."
+    },
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "20 HP",
+        "size": "Small",
+        "habitat": "Dense forests",
+        "description": "Forest Goblins are agile climbers and live among the treetops. They have greenish skin for camouflage in their lush surroundings.",
+        "diet": "Herbivorous, consuming berries, nuts, and leaves.",
+        "weaknesses": "Cold climates, as they rely on the warm forest environment for survival."
+    }
+]
+``` []}}] [] map[]} {msg_pteXsd5z7GftMc5ro104n8Gr thread.message 1748999564 <nil> thread_5zqj4oTD9riQ1CJkmc46M9y8 <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_VWOQG30kUOWCnso3CRLpDkuA msg_pteXsd5z7GftMc5ro104n8Gr false {  <nil> }}
+2025/06/03 21:24:10 {list [{msg_k1sMyr8S241OIGBfUhXYkt3R thread.message 1749000243 0xc0004643d0 thread_GmFTQsAKhgvQjLWGJKcPGTz2 0xc0004643e0 assistant [{text {```json
+[
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "25 HP",
+        "size": "Small",
+        "habitat": "Dense forests",
+        "description": "These goblins are agile and have green skin to blend with the forest. They are known for setting traps and living in small tribes.",
+        "diet": "Omnivorous, including berries, small animals, and left-over meals from larger creatures.",
+        "weaknesses": "Fire and large beasts."
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "30 HP",
+        "size": "Small",
+        "habitat": "Dark caves and underground tunnels",
+        "description": "Adapted to life underground, they have excellent night vision and a heightened sense of hearing. Known for scavenging and mining resources.",
+        "diet": "Insects, fungi, and scavenged materials.",
+        "weaknesses": "Bright light and loud noises."
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "28 HP",
+        "size": "Small",
+        "habitat": "Swamps and marshlands",
+        "description": "Swamp Goblins have a natural resistance to poison and a tendency to ambush from murky waters. They utilize the dense foliage of swamps for cover.",
+        "diet": "Fish, amphibians, and aquatic plants.",
+        "weaknesses": "Fire and cold environments."
+    }
+]
+``` []}}] [] map[]} {msg_R4fv4BU6EqsjOnyefJQei53L thread.message 1749000240 <nil> thread_GmFTQsAKhgvQjLWGJKcPGTz2 <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_k1sMyr8S241OIGBfUhXYkt3R msg_R4fv4BU6EqsjOnyefJQei53L false {  <nil> }}
+2025/06/03 21:26:08 {list [{msg_w3hE20vCbvBHkvQQiu1AAi7W thread.message 1749000361 0xc0003a4310 thread_cVaCbRDSeSZd4EXSlkFrGj8U 0xc0003a4320 assistant [{text {```json
+[
+  {
+    "name": "Cave Goblin",
+    "race": "Goblin",
+    "health": "30 HP",
+    "size": "Small",
+    "habitat": "Dark caves and underground tunnels",
+    "description": "Cave Goblins are adapted to the dark, with excellent night vision and slender bodies for navigating tight spaces.",
+    "diet": "Insects, small mammals, and fungi",
+    "weaknesses": "Bright light and sunlight"
+  },
+  {
+    "name": "Forest Goblin",
+    "race": "Goblin",
+    "health": "40 HP",
+    "size": "Small",
+    "habitat": "Dense forests and woodlands",
+    "description": "Forest Goblins are more agile than their counterparts and use the dense foliage to their advantage, concealing themselves with ease.",
+    "diet": "Berries, plants, and small game",
+    "weaknesses": "Fire and deforestation"
+  },
+  {
+    "name": "Swamp Goblin",
+    "race": "Goblin",
+    "health": "35 HP",
+    "size": "Small",
+    "habitat": "Swamps and marshlands",
+    "description": "Swamp Goblins have webbed feet for moving through marshy terrain, and their skin blends well with the surrounding environment.",
+    "diet": "Fish, amphibians, and aquatic plants",
+    "weaknesses": "Cold weather and dry heat"
+  }
+]
+``` []}}] [] map[]} {msg_waQt5L4KtpFpbNz5jClRrfIx thread.message 1749000359 <nil> thread_cVaCbRDSeSZd4EXSlkFrGj8U <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_w3hE20vCbvBHkvQQiu1AAi7W msg_waQt5L4KtpFpbNz5jClRrfIx false {  <nil> }}
+2025/06/03 21:29:52 {list [{msg_XxnQx5F1duDQYtCO4Ypgin51 thread.message 1749000584 0xc0002e0250 thread_PpqK8uJqH7f7CpCbopVcUKzD 0xc0002e0260 assistant [{text {```json
+[
+  {
+    "name": "Cave Goblin",
+    "race": "Goblin",
+    "health": "20 HP",
+    "size": "Small",
+    "habitat": "Dark caves and underground tunnels",
+    "description": "Cave Goblins are known for their adaptability to dark environments, often having pale skin and large eyes to see in dim light.",
+    "diet": "Omnivorous, feeding on mushrooms, small insects, and occasional small mammals",
+    "weaknesses": "Sunlight vulnerability; susceptible to bright light"
+  },
+  {
+    "name": "Forest Goblin",
+    "race": "Goblin",
+    "health": "25 HP",
+    "size": "Small",
+    "habitat": "Dense forests and wooded areas",
+    "description": "Forest Goblins are camouflaged with green and brown skin that allows them to blend into their surroundings, making them exceptional ambushers.",
+    "diet": "Herbivorous, mainly consuming berries, nuts, and leaves",
+    "weaknesses": "Fire; they avoid areas that have been burned or are prone to fires"
+  },
+  {
+    "name": "Sewer Goblin",
+    "race": "Goblin",
+    "health": "22 HP",
+    "size": "Small",
+    "habitat": "Sewers and urban areas",
+    "description": "Sewer Goblins are adept at navigating the networks of tunnels below cities, developing strong immunity to diseases and toxins.",
+    "diet": "Scavenger, eating any refuse or waste they can find",
+    "weaknesses": "Poison; despite their resistance, powerful toxins can still affect them"
+  }
+]
+``` []}}] [] map[]} {msg_ucoMECJkERaVaT8iH9qmfn8D thread.message 1749000581 <nil> thread_PpqK8uJqH7f7CpCbopVcUKzD <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_XxnQx5F1duDQYtCO4Ypgin51 msg_ucoMECJkERaVaT8iH9qmfn8D false {  <nil> }}
+2025/06/03 21:36:55 {list [{msg_ULwdPolTCKr528Z4YIJfotBH thread.message 1749001009 0xc0004162f0 thread_j8Zv0nrUNjNdSh3rAT1djOb3 0xc000416300 assistant [{text {```json
+[
+  {
+    "name": "Forest Goblin",
+    "race": "Goblin",
+    "health": "35 HP",
+    "size": "Small",
+    "habitat": "Dense forests and wooded areas",
+    "description": "Forest Goblins are adept at blending in with their surroundings. They have green-tinted skin and are nimble, making them hard to catch.",
+    "diet": "Omnivorous, primarily consuming insects, berries, and small animals.",
+    "weaknesses": "Vulnerable to fire and loud noises."
+  },
+  {
+    "name": "Cave Goblin",
+    "race": "Goblin",
+    "health": "30 HP",
+    "size": "Small",
+    "habitat": "Dark caves and underground tunnels",
+    "description": "Cave Goblins are adapted to dark environments. They have pale skin and large eyes, which give them superior night vision.",
+    "diet": "Carnivorous, feeding on bats, rats, and fungus.",
+    "weaknesses": "Weak against sunlight and bright lights."
+  },
+  {
+    "name": "Mountain Goblin",
+    "race": "Goblin",
+    "health": "40 HP",
+    "size": "Small",
+    "habitat": "Mountainous regions and rocky terrains",
+    "description": "Mountain Goblins are sturdy and strong for their size. They have grayish skin, which helps them camouflage among rocks.",
+    "diet": "Omnivorous, eating roots, herbs, and small mammals.",
+    "weaknesses": "Susceptible to cold climates and high altitudes."
+  }
+]
+``` []}}] [] map[]} {msg_1cUxfW38ucne1ADULH461EtK thread.message 1749001007 <nil> thread_j8Zv0nrUNjNdSh3rAT1djOb3 <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_ULwdPolTCKr528Z4YIJfotBH msg_1cUxfW38ucne1ADULH461EtK false {  <nil> }}
+2025/06/04 00:31:23 {list [{msg_43zj4aGSwHkbJHwvBaKkjh1F thread.message 1749011477 0xc0001ca120 thread_Dr54UoPNbztnfJn7ylRNLTD8 0xc0001ca130 assistant [{text {```json
+[
+    {
+        "name": "Swamp Goblin",
+        "race": "Orc",
+        "health": "35",
+        "size": "Small",
+        "habitat": "Swamps and marshlands",
+        "description": "Swamp Goblins are adapted to life in the humid, murky environments of swamps. They have greenish skin that allows them to camouflage effectively among the vegetation and muck.",
+        "diet": "Omnivorous, with a preference for insects and small aquatic creatures.",
+        "weaknesses": "Fire and extreme cold, as their skin is more sensitive due to the constant moisture."
+    },
+    {
+        "name": "Mountain Goblin",
+        "race": "Orc",
+        "health": "45",
+        "size": "Small",
+        "habitat": "Mountainous regions",
+        "description": "Mountain Goblins are sturdy and adapted to the rugged rocky terrains. They have tougher skin and a higher resistance to cold, aiding their survival in higher altitudes.",
+        "diet": "Herbivorous, mainly feeding on mountain grasses and hardy plants.",
+        "weaknesses": "Weak against strong winds and avalanches."
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Orc",
+        "health": "40",
+        "size": "Small",
+        "habitat": "Caves and underground tunnels",
+        "description": "Cave Goblins are accustomed to the darkness of caves and have excellent night vision. Their pale skin helps them blend into the stone environments they inhabit.",
+        "diet": "Insectivorous, primarily eating cave insects and fungi.",
+        "weaknesses": "Bright light and open spaces, as they can become disoriented outside their dark habitats."
+    }
+]
+``` []}}] [] map[]} {msg_uEBJCNLNt9U6ETJ33ASY2M58 thread.message 1749011475 <nil> thread_Dr54UoPNbztnfJn7ylRNLTD8 <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_43zj4aGSwHkbJHwvBaKkjh1F msg_uEBJCNLNt9U6ETJ33ASY2M58 false {  <nil> }}
+2025/06/04 00:31:42 {list [{msg_cFpsMWLBnFWL4reTHGr5suKi thread.message 1749011487 0xc0001ca9e0 thread_sl6J6wpoxPnEdusBsicpyoOc 0xc0001ca9f0 assistant [] [] map[]} {msg_4bQIFJNEeu4VbTConSEoDpzL thread.message 1749011484 <nil> thread_sl6J6wpoxPnEdusBsicpyoOc <nil> user [{text {Please create 10 subtypes of Orc. Type Orc has the ansestry  []}}] [] map[]}] msg_cFpsMWLBnFWL4reTHGr5suKi msg_4bQIFJNEeu4VbTConSEoDpzL false {  <nil> }}
+2025/06/04 00:53:27 {list [{msg_MDep2FzjeXSWXz4wBV4Jq77P thread.message 1749012800 0xc000028320 thread_HtAAK3HSOyuzFLLoIfQhlltr 0xc000028330 assistant [{text {```json
+[
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": 25,
+        "size": "Small",
+        "habitat": "Forests and wooded areas",
+        "description": "These goblins have a natural camouflage that allows them to blend into the forest environment. They are skilled in setting traps and navigating the woodland.",
+        "diet": "Omnivore with a preference for small animals and forest plants",
+        "weaknesses": "Fire, due to their dense forest habitat, and sunlight as it disrupts their vision"
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": 30,
+        "size": "Small",
+        "habitat": "Caves and underground tunnels",
+        "description": "Cave Goblins have adapted to life in the dark, with keen night vision and a sensitivity to light. They are known to be scavengers, finding sustenance in the dark unknown.",
+        "diet": "Insectivore and scavenger, consuming insects and leftover food",
+        "weaknesses": "Bright lights and loud noises, which can disorient them"
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": 28,
+        "size": "Small",
+        "habitat": "Swamps and marshlands",
+        "description": "Swamp Goblins have adapted to the murky, wet environments. They are excellent swimmers and use stealth to their advantage in the thick, muddy waters.",
+        "diet": "Carnivore, preferring fish and amphibians",
+        "weaknesses": "Dry environments can quickly dehydrate them, making them sluggish and weak"
+    }
+]
+``` []}}] [] map[]} {msg_nRZoa8Pw1vdZVWDEpHZumsM3 thread.message 1749012797 <nil> thread_HtAAK3HSOyuzFLLoIfQhlltr <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_MDep2FzjeXSWXz4wBV4Jq77P msg_nRZoa8Pw1vdZVWDEpHZumsM3 false {  <nil> }}
+2025/06/04 00:53:46 {list [{msg_GgAdTqPuFjc753wqeHz42M9S thread.message 1749012813 0xc00040c1f0 thread_XYlzmlPa6Y8PCt2BmR831v2K 0xc00040c200 assistant [] [] map[]} {msg_vKsBumiQ6Y3Iji9pl8P7cvsu thread.message 1749012808 <nil> thread_XYlzmlPa6Y8PCt2BmR831v2K <nil> user [{text {Please create 10 subtypes of Orc. Type Orc has no ansestry. []}}] [] map[]}] msg_GgAdTqPuFjc753wqeHz42M9S msg_vKsBumiQ6Y3Iji9pl8P7cvsu false {  <nil> }}
+2025/06/04 01:09:01 {list [{msg_tUu2JS2cMDUGG8qmPaZXrsHI thread.message 1749013735 0xc000114560 thread_gfHZGzVQwVpXSBupgXu8luXz 0xc000114570 assistant [{text {```json
+[
+    {
+        "name": "Mountain Goblin",
+        "race": "Goblin",
+        "health": "15",
+        "size": "Small",
+        "habitat": "Mountainous regions",
+        "description": "Mountain Goblins are adapted to high altitudes, with thicker skin to withstand the cold. They are known for their agility and are excellent climbers.",
+        "diet": "Omnivorous, preferring small mammals and hardy mountain plants.",
+        "weaknesses": "Poor eyesight in bright light."
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "20",
+        "size": "Small",
+        "habitat": "Swampy areas",
+        "description": "Swamp Goblins have webbed feet and hands, making them excellent swimmers. Their skin is usually a camouflaged green to blend into their surroundings.",
+        "diet": "Carnivorous, mainly consuming fish and small amphibians.",
+        "weaknesses": "Weak to fire-based attacks."
+    },
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "18",
+        "size": "Small",
+        "habitat": "Dense forests",
+        "description": "Forest Goblins are masters of camouflage, with skin tones that match the leaves and bark of the trees around them. They are agile and excellent at setting traps.",
+        "diet": "Herbivorous, feeding on fruits and nuts.",
+        "weaknesses": "Vulnerable to mental manipulation."
+    }
+]
+``` []}}] [] map[]} {msg_A4FqAnw6eGahHp9C4WuiRvkz thread.message 1749013730 <nil> thread_gfHZGzVQwVpXSBupgXu8luXz <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_tUu2JS2cMDUGG8qmPaZXrsHI msg_A4FqAnw6eGahHp9C4WuiRvkz false {  <nil> }}
+2025/06/04 01:09:51 {list [{msg_emLUy0qkZ8XLWPYHgc7wFegU thread.message 1749013783 0xc000412030 thread_xPJIzNuzsTRuiJ7zyII88JbS 0xc000412040 assistant [{text {```json
+[
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "25 HP",
+        "size": "Small",
+        "habitat": "Dense forests and woodlands",
+        "description": "Forest Goblins are well-camouflaged creatures with green, leafy skin that allows them to blend seamlessly into their woodland surroundings.",
+        "diet": "Omnivorous, mainly berries, insects, and small animals",
+        "weaknesses": "Fire, bright light"
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "30 HP",
+        "size": "Small",
+        "habitat": "Caves and underground tunnels",
+        "description": "Cave Goblins have a pale, almost translucent skin that suits their subterranean environment, and their large eyes are adapted to low-light vision.",
+        "diet": "Carnivorous, feeding on cave-dwelling creatures and fungi",
+        "weaknesses": "Sunlight, loud noises"
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "20 HP",
+        "size": "Small",
+        "habitat": "Swamps and marshlands",
+        "description": "Swamp Goblins have warty, mud-colored skin that helps them hide in bogs. They are excellent swimmers and are often found near water.",
+        "diet": "Omnivorous, consuming aquatic plants, fish, and amphibians",
+        "weaknesses": "Cold temperatures, dry environments"
+    }
+]
+``` []}}] [] map[]} {msg_uLMWVoamSNOLu17hmZto53bq thread.message 1749013781 <nil> thread_xPJIzNuzsTRuiJ7zyII88JbS <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_emLUy0qkZ8XLWPYHgc7wFegU msg_uLMWVoamSNOLu17hmZto53bq false {  <nil> }}
+2025/06/04 01:10:10 {list [{msg_717u6cWycZ5BOPrfS8wxhEr2 thread.message 1749013793 0xc00026a720 thread_3UfTOdDHHmachHkRMXTPJXhF 0xc00026a730 assistant [{text {```json
+[
+    {
+        "name": "Mountain Orc",
+        "race": "Orc",
+        "health": "150",
+        "size": "Large",
+        "habitat": "Mountainous regions",
+        "description": "Mountain Orcs are larger than their brethren and have tough skin adapted to the cold, rugged mountain environments.",
+        "diet": "Carnivorous, often hunting mountain goats and other highland creatures.",
+        "weaknesses": "Can be sensitive to heat due to their adaptation to cold climates."
+    },
+    {
+        "name": "Forest Orc",
+        "race": "Orc",
+        "health": "120",
+        "size": "Medium",
+        "habitat": "Dense forests",
+        "description": "Forest Orcs are known for their green-tinted skin, allowing them to blend into the forest surroundings.",
+        "diet": "Omnivorous, consuming plants, fruits, and hunting small game.",
+        "weaknesses": "Less durable in open spaces without cover."
+    },
+    {
+        "name": "Swamp Orc",
+        "race": "Orc",
+        "health": "130",
+        "size": "Medium",
+        "habitat": "Swamps and marshlands",
+        "description": "With tough skin resistant to swampy infections, Swamp Orcs are adept at navigating through bogs and marshes.",
+        "diet": "Carnivorous, primarily feeding on reptiles and amphibians.",
+        "weaknesses": "Slower on dry land due to their adaptation to wet environments."
+    },
+    {
+        "name": "Desert Orc",
+        "race": "Orc",
+        "health": "110",
+        "size": "Medium",
+        "habitat": "Arid deserts",
+        "description": "Desert Orcs have adapted to the harsh, dry conditions with tough, sun-protective skin.",
+        "diet": "Herbivorous, mainly consuming cacti and drought-resistant plants.",
+        "weaknesses": "Vulnerable to cold environments."
+    },
+    {
+        "name": "Cave Orc",
+        "race": "Orc",
+        "health": "140",
+        "size": "Medium",
+        "habitat": "Dark caves and underground tunnels",
+        "description": "Cave Orcs have exceptional night vision and a pallid complexion due to their subterranean lifestyle.",
+        "diet": "Carnivorous, feeding on underground creatures.",
+        "weaknesses": "Sensitive to bright light."
+    },
+    {
+        "name": "Savannah Orc",
+        "race": "Orc",
+        "health": "125",
+        "size": "Medium-Large",
+        "habitat": "Open savannahs",
+        "description": "Savannah Orcs have adapted to cover long distances quickly across flat, open lands.",
+        "diet": "Carnivorous, including big game hunting.",
+        "weaknesses": "Occasional lack of water resources, making them vulnerable to dehydration."
+    },
+    {
+        "name": "Tundra Orc",
+        "race": "Orc",
+        "health": "145",
+        "size": "Large",
+        "habitat": "Frozen tundras",
+        "description": "Well insulated with thick fur and tough hides, Tundra Orcs thrive in freezing temperatures.",
+        "diet": "Carnivorous, mainly hunting large mammals like caribou.",
+        "weaknesses": "Easily overheated in warm environments."
+    },
+    {
+        "name": "Volcanic Orc",
+        "race": "Orc",
+        "health": "135",
+        "size": "Large",
+        "habitat": "Volcanoes and lava fields",
+        "description": "Adapting to the heat, Volcanic Orcs have fire-resistant skin and sharp volcanic rock weapons.",
+        "diet": "Carnivorous, hunting creatures adapted to hot climates.",
+        "weaknesses": "Vulnerable to cold and water exposure."
+    },
+    {
+        "name": "Plains Orc",
+        "race": "Orc",
+        "health": "115",
+        "size": "Medium",
+        "habitat": "Wide-open plains",
+        "description": "Plain Orcs are adept strategists using the vast open areas to their advantage during combat.",
+        "diet": "Omnivorous, relying on a mix of wild grains and hunted animals.",
+        "weaknesses": "Fast-moving predators can outpace them."
+    },
+    {
+        "name": "Jungle Orc",
+        "race": "Orc",
+        "health": "130",
+        "size": "Medium",
+        "habitat": "Tropical jungles",
+        "description": "Jungle Orcs have strong climbing abilities and are skilled at setting traps.",
+        "diet": "Omnivorous, feasting on both fruits and caught prey.",
+        "weaknesses": "Less effective in open, flat terrains."
+    }
+]
+``` []}}] [] map[]} {msg_IOXO4fbz74YwexzGyIFIUDjw thread.message 1749013791 <nil> thread_3UfTOdDHHmachHkRMXTPJXhF <nil> user [{text {Please create 10 subtypes of Orc. Type Orc has no ansestry. []}}] [] map[]}] msg_717u6cWycZ5BOPrfS8wxhEr2 msg_IOXO4fbz74YwexzGyIFIUDjw false {  <nil> }}
+2025/06/04 01:22:45 {list [{msg_TzBjqfHOWOseUA3ouy43hS4h thread.message 1749014565 0xc000592130 thread_0GQxLffBVLMHLRsQdmmPOq1p 0xc000592140 assistant [] [] map[]} {msg_riT8i9SfsijIbc6UMAjTu3Sl thread.message 1749014561 <nil> thread_0GQxLffBVLMHLRsQdmmPOq1p <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_TzBjqfHOWOseUA3ouy43hS4h msg_riT8i9SfsijIbc6UMAjTu3Sl false {  <nil> }}
+2025/06/04 01:23:00 {list [{msg_dKlbtyyWfnvV3ajZiJl0ua3I thread.message 1749014568 0xc000592430 thread_iPKKERoJ9EAangJ89FOx7uTQ 0xc000592440 assistant [{text {```json
+[
+    {
+        "name": "Mountain Orc",
+        "race": "Orc",
+        "health": "120",
+        "size": "Large",
+        "habitat": "Mountainous regions",
+        "description": "Mountain Orcs are robust and resilient, thriving in the harsh conditions of high altitudes.",
+        "diet": "Omnivorous, favoring mountain goat and hardy shrubs",
+        "weaknesses": "Extreme cold and thin air"
+    },
+    {
+        "name": "Forest Orc",
+        "race": "Orc",
+        "health": "110",
+        "size": "Medium",
+        "habitat": "Dense forests",
+        "description": "Forest Orcs are agile and stealthy, adept at navigating and hunting in thick woodlands.",
+        "diet": "Herbivorous, with a taste for berries and foliage",
+        "weaknesses": "Open spaces and fire"
+    },
+    {
+        "name": "Swamp Orc",
+        "race": "Orc",
+        "health": "115",
+        "size": "Medium",
+        "habitat": "Swamps and marshlands",
+        "description": "These Orcs are adapted to wet, murky environments where they use natural camouflage to their advantage.",
+        "diet": "Carnivorous, mainly consuming amphibians and fish",
+        "weaknesses": "Dry environments and salt"
+    },
+    {
+        "name": "Desert Orc",
+        "race": "Orc",
+        "health": "90",
+        "size": "Slim",
+        "habitat": "Deserts",
+        "description": "Desert Orcs are fast and resourceful, with adaptations to survive extreme heat and scarce water sources.",
+        "diet": "Omnivorous, adapted to eating cacti and small desert creatures",
+        "weaknesses": "Cold environments and water dependencies"
+    },
+    {
+        "name": "Cave Orc",
+        "race": "Orc",
+        "health": "130",
+        "size": "Large",
+        "habitat": "Caverns and underground",
+        "description": "Cave Orcs are powerful and sturdy, with excellent night vision and an affinity for dark places.",
+        "diet": "Carnivorous, specializing in cave-dwelling creatures",
+        "weaknesses": "Sunlight and open environments"
+    },
+    {
+        "name": "Savanna Orc",
+        "race": "Orc",
+        "health": "100",
+        "size": "Medium",
+        "habitat": "Savannas and grasslands",
+        "description": "Adapted to open fields, Savanna Orcs are fast and travel in packs, straddling the line between hunter and gatherer.",
+        "diet": "Omnivorous with a preference for grains and large game",
+        "weaknesses": "Dense forests and irregular terrain"
+    },
+    {
+        "name": "Sea Orc",
+        "race": "Orc",
+        "health": "105",
+        "size": "Medium",
+        "habitat": "Coastal areas and islands",
+        "description": "Sea Orcs are proficient swimmers, often navigating coasts and islands in search of food.",
+        "diet": "Fish and crustaceans",
+        "weaknesses": "Land-based predators and loss of water access"
+    },
+    {
+        "name": "Plains Orc",
+        "race": "Orc",
+        "health": "100",
+        "size": "Medium",
+        "habitat": "Plains and open fields",
+        "description": "These Orcs are fast runners and skilled hunters of large prey inhabiting expansive plains.",
+        "diet": "Carnivorous, favoring large mammals",
+        "weaknesses": "Covered environments and spears"
+    },
+    {
+        "name": "Tundra Orc",
+        "race": "Orc",
+        "health": "110",
+        "size": "Large",
+        "habitat": "Arctic tundras",
+        "description": "Well-suited to cold climates, Tundra Orcs have thick fur and great endurance.",
+        "diet": "Carnivorous, primarily consuming seal and polar bear",
+        "weaknesses": "Heat and dehydration"
+    },
+    {
+        "name": "Volcanic Orc",
+        "race": "Orc",
+        "health": "125",
+        "size": "Large",
+        "habitat": "Volcanic regions",
+        "description": "With a tough exterior like lava rock, Volcanic Orcs tolerate extreme heat and are fierce in battle.",
+        "diet": "Omnivorous, with cravings for spicy dishes and fire-resistant flora",
+        "weaknesses": "Water and ash storms"
+    }
+]
+``` []}}] [] map[]} {msg_0084aUg2tDMIRzBZ9BNbFtTw thread.message 1749014566 <nil> thread_iPKKERoJ9EAangJ89FOx7uTQ <nil> user [{text {Please create 10 subtypes of Orc. Type Orc has no ansestry. []}}] [] map[]}] msg_dKlbtyyWfnvV3ajZiJl0ua3I msg_0084aUg2tDMIRzBZ9BNbFtTw false {  <nil> }}
+2025/06/04 16:08:13 {list [{msg_6csL5L9Fa6k97M0EuK7QodwH thread.message 1749067687 0xc00050a480 thread_PEv31fkXA5feRVktAL9h8eVX 0xc00050a490 assistant [{text {```json
+[
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "30",
+        "size": "Small",
+        "habitat": "Swamps",
+        "description": "Swamp Goblins are small, vile creatures with greenish skin and slimy textures, adapted to living in murky environments.",
+        "diet": "Insects, small fish, aquatic plants",
+        "weaknesses": "Fire, sunlight"
+    },
+    {
+        "name": "Mountain Goblin",
+        "race": "Goblin",
+        "health": "35",
+        "size": "Small",
+        "habitat": "Mountainous regions",
+        "description": "Mountain Goblins have sturdy builds and grayish skin, making them well-suited for life in rocky terrains.",
+        "diet": "Small animals, roots, berries",
+        "weaknesses": "Cold temperatures, limited oxygen"
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "25",
+        "size": "Small",
+        "habitat": "Caves and underground tunnels",
+        "description": "Cave Goblins possess keen night vision and pale skin, ideal for their subterranean lifestyle.",
+        "diet": "Fungus, insects, bat guano",
+        "weaknesses": "Bright light, surface predators"
+    }
+]
+``` []}}] [] map[]} {msg_mRGhMvYlxrpFVtqjxuCgtEfr thread.message 1749067685 <nil> thread_PEv31fkXA5feRVktAL9h8eVX <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_6csL5L9Fa6k97M0EuK7QodwH msg_mRGhMvYlxrpFVtqjxuCgtEfr false {  <nil> }}
+2025/06/04 16:08:18 {list [{msg_qBkcGGHJdFbwnEpGP1pgodB5 thread.message 1749067693 <nil> thread_ZzkC8sKWbgIbci6syUGKu849 <nil> user [{text {Please create 10 subtypes of Orc. Type Orc has no ansestry. []}}] [] map[]}] msg_qBkcGGHJdFbwnEpGP1pgodB5 msg_qBkcGGHJdFbwnEpGP1pgodB5 false {  <nil> }}
+2025/06/04 16:13:30 {list [{msg_TflUsjyIzr7QW4rV4Q58p49j thread.message 1749068001 0xc00048c040 thread_Xn0t8kaRCW24LuuPpzfpanCM 0xc00048c050 assistant [{text {```json
+[
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "15 HP",
+        "size": "Small",
+        "habitat": "Dark Caves and Underground Tunnels",
+        "description": "Cave Goblins have adapted to living in the dark, often found in damp and narrow caves. Their skin is sallow, and they have larger eyes to see in the dark.",
+        "diet": "Mushrooms, Insects, Small Rodents",
+        "weaknesses": "Sensitive to light, Poor endurance"
+    },
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "20 HP",
+        "size": "Small",
+        "habitat": "Dense Forests",
+        "description": "Forest Goblins are at home among the trees, using their green-tinted skin to blend in with the foliage. They're cunning and often set traps for unsuspecting travelers.",
+        "diet": "Berries, Small Birds, Forest Fruits",
+        "weaknesses": "Fire, Simple-mindedness"
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "18 HP",
+        "size": "Small",
+        "habitat": "Swamps and Marshlands",
+        "description": "Swamp Goblins have a distinct odor and are covered with layers of muck and slime, which they use to their advantage in their murky habitat.",
+        "diet": "Fish, Reptiles, Water Plants",
+        "weaknesses": "Drought, Cold temperatures"
+    }
+]
+``` []}}] [] map[]} {msg_Oj4owcXEj9eyUi074lx9mMpY thread.message 1749067998 <nil> thread_Xn0t8kaRCW24LuuPpzfpanCM <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_TflUsjyIzr7QW4rV4Q58p49j msg_Oj4owcXEj9eyUi074lx9mMpY false {  <nil> }}
+2025/06/04 16:13:46 {list [{msg_tTKyHts6kQl9riqncHKGBvfp thread.message 1749068013 0xc000256bf0 thread_9rKwxM4wLvzCzc1uRHWtrFuU 0xc000256c00 assistant [{text {```json
+[
+    {
+        "name": "Mountain Orc",
+        "race": "Orc",
+        "health": "150",
+        "size": "Large",
+        "habitat": "Mountains",
+        "description": "Mountain Orcs are rugged and strong due to living in the harsh mountain terrains.",
+        "diet": "Carnivorous",
+        "weaknesses": "Susceptible to cold weather"
+    },
+    {
+        "name": "Swamp Orc",
+        "race": "Orc",
+        "health": "130",
+        "size": "Medium",
+        "habitat": "Swamps",
+        "description": "Swamp Orcs have greenish skin and are adept at navigating murky waters.",
+        "diet": "Omnivorous",
+        "weaknesses": "Poisonous plants"
+    },
+    {
+        "name": "Desert Orc",
+        "race": "Orc",
+        "health": "140",
+        "size": "Medium",
+        "habitat": "Deserts",
+        "description": "Desert Orcs have adapted to survive extreme heat and scarcity of water.",
+        "diet": "Carnivorous",
+        "weaknesses": "Hydration loss"
+    },
+    {
+        "name": "Forest Orc",
+        "race": "Orc",
+        "health": "135",
+        "size": "Medium",
+        "habitat": "Forests",
+        "description": "Forest Orcs are more attuned to nature and blend well with the lush environments.",
+        "diet": "Herbivorous",
+        "weaknesses": "Fire"
+    },
+    {
+        "name": "Cave Orc",
+        "race": "Orc",
+        "health": "160",
+        "size": "Large",
+        "habitat": "Caves",
+        "description": "Cave Orcs are stout with exceptional night vision and thrive in subterranean environments.",
+        "diet": "Carnivorous",
+        "weaknesses": "Sunlight"
+    },
+    {
+        "name": "Plains Orc",
+        "race": "Orc",
+        "health": "125",
+        "size": "Medium",
+        "habitat": "Plains",
+        "description": "Plains Orcs are fast and agile, making use of the wide-open spaces for hunting.",
+        "diet": "Omnivorous",
+        "weaknesses": "Limited cover"
+    },
+    {
+        "name": "Tundra Orc",
+        "race": "Orc",
+        "health": "145",
+        "size": "Medium",
+        "habitat": "Tundra",
+        "description": "Tundra Orcs are hardy and bear thick fur to withstand freezing temperatures.",
+        "diet": "Carnivorous",
+        "weaknesses": "Heat"
+    },
+    {
+        "name": "River Orc",
+        "race": "Orc",
+        "health": "120",
+        "size": "Medium",
+        "habitat": "Riversides",
+        "description": "River Orcs are strong swimmers and exceptional fishers with gill-like features.",
+        "diet": "Omnivorous",
+        "weaknesses": "Dry conditions"
+    },
+    {
+        "name": "Jungle Orc",
+        "race": "Orc",
+        "health": "140",
+        "size": "Medium",
+        "habitat": "Jungles",
+        "description": "Jungle Orcs are well adapted to the dense and humid environments filled with biodiversity.",
+        "diet": "Omnivorous",
+        "weaknesses": "Isolation"
+    },
+    {
+        "name": "Volcano Orc",
+        "race": "Orc",
+        "health": "155",
+        "size": "Large",
+        "habitat": "Volcanic regions",
+        "description": "Volcano Orcs have thick, heat-resistant skin and thrive in the presence of lava flows.",
+        "diet": "Carnivorous",
+        "weaknesses": "Water"
+    }
+]
+``` []}}] [] map[]} {msg_w2DwwGst2zqT4lwvyBsrxAci thread.message 1749068010 <nil> thread_9rKwxM4wLvzCzc1uRHWtrFuU <nil> user [{text {Please create 10 subtypes of Orc. Type Orc has no ansestry. []}}] [] map[]}] msg_tTKyHts6kQl9riqncHKGBvfp msg_w2DwwGst2zqT4lwvyBsrxAci false {  <nil> }}
+2025/06/04 16:16:54 {list [{msg_sZnEvNiEBSRapQc5jeibEe0W thread.message 1749068205 0xc00032a5d0 thread_kDih5vR0nCYgLUmJKJyVoQme 0xc00032a5e0 assistant [{text {```json
+[
+  {
+    "name": "Forest Goblin",
+    "race": "Goblin",
+    "health": "25",
+    "size": "Small",
+    "habitat": "Dense Forests",
+    "description": "Small, agile creatures with greenish skin, adept at navigating through forest terrains. They use the forest's natural resources to craft primitive weapons and traps.",
+    "diet": "Omnivorous, feeding on plants, insects, and smaller animals.",
+    "weaknesses": "Bright light and fire, which are rare in their dense forest habitats."
+  },
+  {
+    "name": "Mountain Goblin",
+    "race": "Goblin",
+    "health": "30",
+    "size": "Medium",
+    "habitat": "Mountainous regions",
+    "description": "Robust and resilient, Mountain Goblins have a grayish skin tone that blends with rocky surroundings. They are known for their mining skills and live in small, tight-knit clans.",
+    "diet": "Primarily carnivorous, hunting small mountain creatures and scavenging for food.",
+    "weaknesses": "Extreme cold and water, as they have limited access to both in the mountains."
+  },
+  {
+    "name": "Swamp Goblin",
+    "race": "Goblin",
+    "health": "20",
+    "size": "Small",
+    "habitat": "Swamps and marshlands",
+    "description": "With slimy, mud-colored skin, Swamp Goblins are adapted to life in wetlands. They tend to be more cunning and devious, using the swamp's mist and mud to their advantage.",
+    "diet": "Omnivorous, often consuming fish, amphibians, and swamp vegetation.",
+    "weaknesses": "Dry conditions and fire, which are rare in their swampy environments."
+  }
+]
+``` []}}] [] map[]} {msg_qhrnaczKmVbG3HWM78Z2r7Vm thread.message 1749068202 <nil> thread_kDih5vR0nCYgLUmJKJyVoQme <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_sZnEvNiEBSRapQc5jeibEe0W msg_qhrnaczKmVbG3HWM78Z2r7Vm false {  <nil> }}
+2025/06/04 16:17:04 {list [{msg_NBblzuYQuImoLvHqWjRdYgtl thread.message 1749068217 0xc00041a630 thread_HY30Kw9TARs2FmtNLI3aboi1 0xc00041a640 assistant [{text {```json
+[
+    {
+        "name": "Mountain Orc",
+        "race": "Orc",
+        "health": "120",
+        "size": "Large",
+        "habitat": "Mountainous Regions",
+        "description": "Sturdy and resilient, Mountain Orcs are known for their ability to navigate treacherous terrain and their excellent rock-climbing skills.",
+        "diet": "Omnivorous, prefers mountain goats and hardy plants.",
+        "weaknesses": "Slow speed on flat terrain"
+    },
+    {
+        "name": "Swamp Orc",
+        "race": "Orc",
+        "health": "100",
+        "size": "Medium",
+        "habitat": "Swamps",
+        "description": "Swamp Orcs are adapted to life in murky waters, with webbed feet and a strong resistance to disease.",
+        "diet": "Carnivorous, primarily hunts fish and amphibians.",
+        "weaknesses": "Weak to fire"
+    },
+    {
+        "name": "Plains Orc",
+        "race": "Orc",
+        "health": "110",
+        "size": "Medium",
+        "habitat": "Grasslands and Plains",
+        "description": "Fast and agile, the Plains Orcs are known for their exceptional hunting skills and nomadic lifestyle.",
+        "diet": "Omnivorous, with a preference for game animals.",
+        "weaknesses": "Susceptible to cold climates"
+    },
+    {
+        "name": "Desert Orc",
+        "race": "Orc",
+        "health": "100",
+        "size": "Medium",
+        "habitat": "Deserts",
+        "description": "Adapted to extreme heat, Desert Orcs have a high endurance for arid conditions and can go without water for long periods.",
+        "diet": "Scavenger, eating whatever is available.",
+        "weaknesses": "Vulnerable to cold"
+    },
+    {
+        "name": "Forest Orc",
+        "race": "Orc",
+        "health": "105",
+        "size": "Medium",
+        "habitat": "Dense Forests",
+        "description": "Stealthy and elusive, Forest Orcs are at home under the cover of trees and are skilled in ambush tactics.",
+        "diet": "Omnivorous, with a preference for deer and berries.",
+        "weaknesses": "Dislikes open spaces"
+    },
+    {
+        "name": "Cave Orc",
+        "race": "Orc",
+        "health": "115",
+        "size": "Large",
+        "habitat": "Caves and Underground",
+        "description": "Robust and strong, Cave Orcs are noted for their superior strength and ability to see in the dark.",
+        "diet": "Carnivorous, primarily feeds on underground creatures.",
+        "weaknesses": "Sensitive to light"
+    },
+    {
+        "name": "Tundra Orc",
+        "race": "Orc",
+        "health": "110",
+        "size": "Medium",
+        "habitat": "Tundras and Snowfields",
+        "description": "Tundra Orcs have thick fur coats to protect them from extreme cold and are known for their endurance.",
+        "diet": "Carnivorous, mainly hunts seals and fishes.",
+        "weaknesses": "Dislikes heat"
+    },
+    {
+        "name": "Volcanic Orc",
+        "race": "Orc",
+        "health": "120",
+        "size": "Large",
+        "habitat": "Volcanic Regions",
+        "description": "Volcanic Orcs thrive near volcanoes and have a natural resistance to heat and fire.",
+        "diet": "Omnivorous, often eating charred remains.",
+        "weaknesses": "Shock attacks"
+    },
+    {
+        "name": "Jungle Orc",
+        "race": "Orc",
+        "health": "105",
+        "size": "Medium",
+        "habitat": "Jungles and Tropical Forests",
+        "description": "Jungle Orcs are agile and acrobatic, well-versed in moving through dense foliage.",
+        "diet": "Omnivorous, prefers tropical fruits and small jungle animals.",
+        "weaknesses": "Dislike dry environments"
+    },
+    {
+        "name": "Urban Orc",
+        "race": "Orc",
+        "health": "95",
+        "size": "Medium",
+        "habitat": "Cities and Ruins",
+        "description": "Highly adaptive, Urban Orcs have learned to live from scavenging while avoiding human settlements.",
+        "diet": "Scavenger, opportunistic eater.",
+        "weaknesses": "Weak to organized tactical strikes"
+    }
+]
+``` []}}] [] map[]} {msg_1UJqcPrTBWu46ncroZhg4oD2 thread.message 1749068215 <nil> thread_HY30Kw9TARs2FmtNLI3aboi1 <nil> user [{text {Please create 10 subtypes of Orc. Type Orc has no ansestry. []}}] [] map[]}] msg_NBblzuYQuImoLvHqWjRdYgtl msg_1UJqcPrTBWu46ncroZhg4oD2 false {  <nil> }}
+2025/06/04 16:22:33 {list [{msg_vf33mc9ovw049X4eTtS8HHOv thread.message 1749068545 0xc00012e390 thread_VEAfyk1XaFoviPf4D4R9c0m9 0xc00012e3a0 assistant [{text {```json
+[
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "20",
+        "size": "Small",
+        "habitat": "Dense forests and wooded areas",
+        "description": "Forest Goblins are sly and stealthy, using their greenish-brown skin to blend into their woodland homes.",
+        "diet": "Omnivorous, with a preference for small game, berries, and nuts.",
+        "weaknesses": "Fire and bright light"
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "25",
+        "size": "Small",
+        "habitat": "Dark caves and underground tunnels",
+        "description": "Cave Goblins thrive in subterranean environments, with pale skin and well-developed night vision.",
+        "diet": "Omnivorous, feeding on fungus, insects, and cave-dwelling creatures.",
+        "weaknesses": "Sunlight and open spaces"
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "22",
+        "size": "Small",
+        "habitat": "Swamps and marshlands",
+        "description": "Swamp Goblins are adapted to wet environments, with webbed feet and a fondness for boggy terrain.",
+        "diet": "Omnivorous, with a diet of fish, amphibians, and aquatic plants.",
+        "weaknesses": "Cold and icy conditions"
+    }
+]
+``` []}}] [] map[]} {msg_4PoMd9NLyChogRxhj8gQzhuy thread.message 1749068543 <nil> thread_VEAfyk1XaFoviPf4D4R9c0m9 <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_vf33mc9ovw049X4eTtS8HHOv msg_4PoMd9NLyChogRxhj8gQzhuy false {  <nil> }}
+2025/06/04 16:22:54 {list [{msg_XeFZWaHrZakdodOdsDw4bMRa thread.message 1749068557 0xc00012edd0 thread_llF1Z47kXGrvsKpaO723sEni 0xc00012ede0 assistant [{text {```json
+[
+  {
+    "name": "Mountain Orc",
+    "race": "Orc",
+    "health": "150",
+    "size": "Large",
+    "habitat": "Mountain ranges",
+    "description": "Mountain Orcs are strong, resilient, and skilled in navigating rocky terrains.",
+    "diet": "Carnivorous, often hunting mountain goats or sheep.",
+    "weaknesses": "Poor swimmers and vulnerable to cold weather."
+  },
+  {
+    "name": "Forest Orc",
+    "race": "Orc",
+    "health": "120",
+    "size": "Medium",
+    "habitat": "Dense forests",
+    "description": "Forest Orcs blend into their woodland environment and are adept at ambushing prey.",
+    "diet": "Omnivorous, eating fruits and hunting forest creatures.",
+    "weaknesses": "Fire and traps set in the forest."
+  },
+  {
+    "name": "Swamp Orc",
+    "race": "Orc",
+    "health": "110",
+    "size": "Medium",
+    "habitat": "Swamplands",
+    "description": "Swamp Orcs are adapted to wet, muddy environments and are known for their stealth.",
+    "diet": "Carnivorous, often consuming fish and amphibians.",
+    "weaknesses": "Insects and disease within the swamps."
+  },
+  {
+    "name": "Desert Orc",
+    "race": "Orc",
+    "health": "100",
+    "size": "Medium",
+    "habitat": "Arid deserts",
+    "description": "Desert Orcs are endurance runners, withstanding long journeys in the heat.",
+    "diet": "Carnivorous, scavenging small desert animals.",
+    "weaknesses": "Lack of water and sandstorms."
+  },
+  {
+    "name": "Cave Orc",
+    "race": "Orc",
+    "health": "130",
+    "size": "Large",
+    "habitat": "Caves and underground tunnels",
+    "description": "Cave Orcs are strong, with excellent night vision and a sense of direction underground.",
+    "diet": "Carnivorous, eating bats and other cave-dwelling creatures.",
+    "weaknesses": "Daylight and loud noises."
+  },
+  {
+    "name": "Plains Orc",
+    "race": "Orc",
+    "health": "115",
+    "size": "Medium",
+    "habitat": "Open plains and grasslands",
+    "description": "Plains Orcs are fast and agile, excellent at long-distance travel.",
+    "diet": "Omnivorous, eating grain and hunting grazing animals.",
+    "weaknesses": "Vision obscured by tall grass."
+  },
+  {
+    "name": "Arctic Orc",
+    "race": "Orc",
+    "health": "140",
+    "size": "Large",
+    "habitat": "Frozen tundra and icy regions",
+    "description": "Arctic Orcs are built for extreme cold, with thick fur and strong survival instincts.",
+    "diet": "Carnivorous, hunting seals and fish.",
+    "weaknesses": "Intense heat and treacherous ice formations."
+  },
+  {
+    "name": "Coastal Orc",
+    "race": "Orc",
+    "health": "125",
+    "size": "Medium",
+    "habitat": "Coastal areas and cliffs",
+    "description": "Coastal Orcs are adept swimmers and skilled in maritime navigation.",
+    "diet": "Omnivorous, with a reliance on fish and sea birds.",
+    "weaknesses": "Stormy weather and strong ocean currents."
+  },
+  {
+    "name": "Jungle Orc",
+    "race": "Orc",
+    "health": "115",
+    "size": "Medium",
+    "habitat": "Tropical jungles",
+    "description": "Jungle Orcs are agile and resourceful, able to use their environment to their advantage.",
+    "diet": "Omnivorous, consuming many types of fruit and small animals.",
+    "weaknesses": "Disease-carrying insects and oppressive humidity."
+  },
+  {
+    "name": "Urban Orc",
+    "race": "Orc",
+    "health": "105",
+    "size": "Medium",
+    "habitat": "Cities and settlements",
+    "description": "Urban Orcs have adapted to life among humans, blending into society with ease.",
+    "diet": "Omnivorous, taking advantage of urban resources.",
+    "weaknesses": "Limited by urban regulations and human laws."
+  }
+]
+``` []}}] [] map[]} {msg_UO8VrHiyaIyuoObdoABw9dcJ thread.message 1749068554 <nil> thread_llF1Z47kXGrvsKpaO723sEni <nil> user [{text {Please create 10 subtypes of Orc. Type Orc has no ansestry. []}}] [] map[]}] msg_XeFZWaHrZakdodOdsDw4bMRa msg_UO8VrHiyaIyuoObdoABw9dcJ false {  <nil> }}
+2025/06/04 16:29:42 {list [{msg_08TxgwtiJSck0W2bVRZmYB0w thread.message 1749068956 0xc00049c5a0 thread_BuTyg5ovpFrBtHdCGdGFyZfP 0xc00049c5b0 assistant [{text {```json
+[
+    {
+        "name": "Mountain Orc",
+        "race": "Orc",
+        "health": "80-100",
+        "size": "Large",
+        "habitat": "Mountainous regions",
+        "description": "Rugged and tough, these orcs are adapted to cold and rocky terrains.",
+        "diet": "Primarily carnivorous, supplemented with hardy mountain plants.",
+        "weaknesses": "Vulnerable to extreme heat due to their cold habitat."
+    },
+    {
+        "name": "Swamp Orc",
+        "race": "Orc",
+        "health": "70-90",
+        "size": "Medium",
+        "habitat": "Swamps and wetlands",
+        "description": "Dark-skinned and resilient, swamp orcs adapt to the murky and humid environments.",
+        "diet": "Omnivorous, feeding on both animals and swamp vegetation.",
+        "weaknesses": "Weaker during dry seasons when swamps are low on water."
+    },
+    {
+        "name": "Desert Orc",
+        "race": "Orc",
+        "health": "60-80",
+        "size": "Medium to Large",
+        "habitat": "Desert regions",
+        "description": "Lean and swift, these orcs can withstand the arid, harsh conditions of the desert.",
+        "diet": "Carnivorous, with a tendency to scavenge for water sources.",
+        "weaknesses": "Susceptible to dehydration if water sources are scarce."
+    },
+    {
+        "name": "Forest Orc",
+        "race": "Orc",
+        "health": "75-95",
+        "size": "Medium",
+        "habitat": "Forests and woodlands",
+        "description": "Blended well into the greenery, these orcs are skilled hunters and gatherers.",
+        "diet": "Omnivorous, enjoying a balanced diet of meat and forest fruits.",
+        "weaknesses": "Vulnerable to forest fires which destroy their habitat."
+    },
+    {
+        "name": "Tundra Orc",
+        "race": "Orc",
+        "health": "85-105",
+        "size": "Large",
+        "habitat": "Tundras and icy plains",
+        "description": "Adapted to freezing temperatures, tundra orcs possess thick skin and fat layers.",
+        "diet": "Carnivorous, primarily relying on hunting arctic animals.",
+        "weaknesses": "Weak against sudden heat waves or fire-based attacks."
+    },
+    {
+        "name": "Plains Orc",
+        "race": "Orc",
+        "health": "70-90",
+        "size": "Medium to Large",
+        "habitat": "Plains and grasslands",
+        "description": "Nomadic and sturdy, plains orcs are agile and capable of long-distance travel.",
+        "diet": "Omnivorous, with a preference for herd animals.",
+        "weaknesses": "Limited protection against forest-like ambushes."
+    },
+    {
+        "name": "Cave Orc",
+        "race": "Orc",
+        "health": "80-100",
+        "size": "Medium",
+        "habitat": "Caves and underground tunnels",
+        "description": "Adapted to darkness, cave orcs possess excellent night vision but are sensitive to light.",
+        "diet": "Omnivorous, consuming cave-dwelling creatures and fungus.",
+        "weaknesses": "Bright light exposure can cause temporary blindness."
+    },
+    {
+        "name": "Urban Orc",
+        "race": "Orc",
+        "health": "60-80",
+        "size": "Medium",
+        "habitat": "Cities and towns",
+        "description": "These orcs have adapted to city life, often working as laborers or mercenaries.",
+        "diet": "Omnivorous, with access to a variety of foods available in urban markets.",
+        "weaknesses": "Lack wilderness survival skills like their rural counterparts."
+    },
+    {
+        "name": "Sea Orc",
+        "race": "Orc",
+        "health": "75-95",
+        "size": "Medium",
+        "habitat": "Coastal regions and islands",
+        "description": "Seafaring orcs who excel in marine environments, possessing webbed hands and feet.",
+        "diet": "Primarily piscivorous, consuming fish and other sea creatures.",
+        "weaknesses": "Less adept on land due to their aquatic adaptations."
+    },
+    {
+        "name": "Jungle Orc",
+        "race": "Orc",
+        "health": "75-95",
+        "size": "Medium",
+        "habitat": "Jungles and rainforests",
+        "description": "Agile and stealthy, jungle orcs have a deep connection with the dense vegetation.",
+        "diet": "Omnivorous, utilizing both hunting and gathering techniques.",
+        "weaknesses": "Prone to diseases carried by jungle parasites."
+    }
+]
+``` []}}] [] map[]} {msg_Y7au6nxUI9hbV6iGBkBknqXT thread.message 1749068953 <nil> thread_BuTyg5ovpFrBtHdCGdGFyZfP <nil> user [{text {Please create 10 subtypes of Orc. Type Orc has no ansestry. []}}] [] map[]}] msg_08TxgwtiJSck0W2bVRZmYB0w msg_Y7au6nxUI9hbV6iGBkBknqXT false {  <nil> }}
+2025/06/04 16:29:51 {list [{msg_0lpik33n517QHbLpOaYpVyYl thread.message 1749068985 0xc00049d3d0 thread_5j3OtwEsaXfVZU31AV2YyqF3 0xc00049d3e0 assistant [{text {```json
+[
+    {
+        "name": "Forest Goblin",
+        "race": "Goblin",
+        "health": "20",
+        "size": "Small",
+        "habitat": "Forests",
+        "description": "Forest Goblins are small, green-skinned creatures who dwell in wooded areas. They are adept at moving silently and blend easily into their surroundings.",
+        "diet": "Omnivorous, primarily berries, insects, and small animals.",
+        "weaknesses": "Bright light and fire."
+    },
+    {
+        "name": "Cave Goblin",
+        "race": "Goblin",
+        "health": "25",
+        "size": "Small",
+        "habitat": "Caves and subterranean environments",
+        "description": "Cave Goblins are nocturnal beings with pale skin and large, sensitive eyes. They are excellent miners and have a knack for finding precious minerals.",
+        "diet": "Omnivorous, primarily fungi and underground insects.",
+        "weaknesses": "Daylight and open spaces."
+    },
+    {
+        "name": "Swamp Goblin",
+        "race": "Goblin",
+        "health": "22",
+        "size": "Small",
+        "habitat": "Swamps and marshlands",
+        "description": "Swamp Goblins have slimy skin and a pungent odor that helps them blend into their marshy environments. They are skilled swimmers and can move effortlessly through bogs.",
+        "diet": "Omnivorous, primarily fish, amphibians, and marsh plants.",
+        "weaknesses": "Dry environments and freezing temperatures."
+    }
+]
+``` []}}] [] map[]} {msg_9CMKBXstdAa58BnWEeIvgqyW thread.message 1749068982 <nil> thread_5j3OtwEsaXfVZU31AV2YyqF3 <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_0lpik33n517QHbLpOaYpVyYl msg_9CMKBXstdAa58BnWEeIvgqyW false {  <nil> }}
+2025/06/04 16:47:59 {list [{msg_vrXFNPByWGv4SFdNVSHJ3Rct thread.message 1749070060 0xc000380400 thread_yCHo2oGAyQkJXt110g8MlJuj 0xc000380410 assistant [{text {```json
+[
+  {
+    "name": "Grunt Orc",
+    "race": "Orc",
+    "health": "150",
+    "size": "Medium",
+    "habitat": "Forests and Mountains",
+    "description": "Standard foot soldiers in Orc armies, known for their intimidating presence and brute strength.",
+    "diet": "Omnivorous",
+    "weaknesses": "Susceptible to cold climates and sophisticated magic."
+  },
+  {
+    "name": "Berserker Orc",
+    "race": "Orc",
+    "health": "200",
+    "size": "Large",
+    "habitat": "Tundras and Jungles",
+    "description": "Fearsome warriors that enter a state of rage, enhancing their strength and ferocity in combat.",
+    "diet": "Carnivorous",
+    "weaknesses": "Vulnerable to psychological manipulation and fatigue after rage subsides."
+  },
+  {
+    "name": "Shaman Orc",
+    "race": "Orc",
+    "health": "120",
+    "size": "Medium",
+    "habitat": "Swamps and Caves",
+    "description": "Mystical leaders that guide their tribes with spiritual wisdom and elemental magic.",
+    "diet": "Herbivorous",
+    "weaknesses": "Physically weaker and susceptible to direct combat injuries."
+  },
+  {
+    "name": "Scout Orc",
+    "race": "Orc",
+    "health": "100",
+    "size": "Small",
+    "habitat": "Plains and Hills",
+    "description": "Nimble and quick, these orcs are adept at reconnaissance, gathering intelligence for larger movements.",
+    "diet": "Omnivorous",
+    "weaknesses": "Low defensive capabilities and endurance."
+  },
+  {
+    "name": "Warlord Orc",
+    "race": "Orc",
+    "health": "300",
+    "size": "Large",
+    "habitat": "Strongholds and War Camps",
+    "description": "Respected and feared leaders that rule over Orc factions, exhibiting superior tactical skills and strength.",
+    "diet": "Omnivorous",
+    "weaknesses": "Tend to be overconfident and are primary targets in battles."
+  },
+  {
+    "name": "Mountain Orc",
+    "race": "Orc",
+    "health": "180",
+    "size": "Medium",
+    "habitat": "Mountain Ranges",
+    "description": "Adapted to high altitudes, these orcs are experts at mountain warfare and survival in harsh climates.",
+    "diet": "Omnivorous",
+    "weaknesses": "Sensitive to lowland environments and extreme warmth."
+  },
+  {
+    "name": "Sea Raider Orc",
+    "race": "Orc",
+    "health": "160",
+    "size": "Medium",
+    "habitat": "Coastal Regions",
+    "description": "Masters of naval warfare, they plunder coastal settlements with swift and deadly attacks.",
+    "diet": "Carnivorous",
+    "weaknesses": "Limited land combat skills and weak against defensive structures."
+  },
+  {
+    "name": "Feral Orc",
+    "race": "Orc",
+    "health": "130",
+    "size": "Medium",
+    "habitat": "Dense Jungles",
+    "description": "Wild and untamed, these orcs rely on primal instincts for survival, often hostile to outsiders.",
+    "diet": "Carnivorous",
+    "weaknesses": "Poor in cooperative tactics and exposed to deception."
+  },
+  {
+    "name": "Smith Orc",
+    "race": "Orc",
+    "health": "140",
+    "size": "Medium",
+    "habitat": "Volcanic Regions",
+    "description": "Renowned for their metallurgy skills, providing weapons and armor for Orc armies.",
+    "diet": "Omnivorous",
+    "weaknesses": "Vulnerable to long-range attacks due to limited physical defense strategies."
+  },
+  {
+    "name": "Nightmare Orc",
+    "race": "Orc",
+    "health": "220",
+    "size": "Large",
+    "habitat": "Underground Lairs",
+    "description": "Terrifying creatures that attack under the cover of night, causing chaos and fear.",
+    "diet": "Omnivorous",
+    "weaknesses": "Frail in daylight and exposed to light-based magics."
+  }
+]
+``` []}}] [] map[]} {msg_V9dVCMDURJ625E7rX4BUtOTe thread.message 1749070056 <nil> thread_yCHo2oGAyQkJXt110g8MlJuj <nil> user [{text {Please create 10 subtypes of Orc. Type Orc has no ansestry. []}}] [] map[]}] msg_vrXFNPByWGv4SFdNVSHJ3Rct msg_V9dVCMDURJ625E7rX4BUtOTe false {  <nil> }}
+2025/06/04 16:48:04 {list [{msg_i6Jp7JIJvPVWO9zSlY8s15da thread.message 1749070080 <nil> thread_Pc8Su2FiKMx0KZBFk8DZ2g21 <nil> user [{text {Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc []}}] [] map[]}] msg_i6Jp7JIJvPVWO9zSlY8s15da msg_i6Jp7JIJvPVWO9zSlY8s15da false {  <nil> }}

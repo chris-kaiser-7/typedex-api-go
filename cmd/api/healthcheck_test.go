@@ -19,13 +19,12 @@ func TestHealthcheck(t *testing.T) {
 	}
 
 	expResp := `{
-	"status": "available",
-	"system_info": {
-		"environment": "testing",
-		"version": "1.0.0"
-	}
-}
-`
+		"status": "available",
+		"system_info": {
+			"environment": "testing",
+			"version": "1.0.0"
+		}
+	}`
 
 	if string(body) != expResp {
 		t.Errorf("want body to equal %q,\n but got %q", expResp, string(body))

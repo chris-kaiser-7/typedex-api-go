@@ -1,4 +1,4 @@
-# Include env variables
+# Include env variablesmakefil
 include .envrc
 
 # ==================================================================================== #
@@ -24,10 +24,29 @@ confirm:
 run/api:
 	@go run ./cmd/api -db-dsn=${GREENLIGHT_DB_DSN}
 
+
+## test/setup: runs setup scripts for creating docker container
+.PHONY: test/setup
+test/setup:
+	./cmd/tests/book_setup.sh
+
+## test/data: test internal data
+.PHONY: test/data
+test/data:
+	@go test ./internal/data -v -dsn=${GREENLIGHT_DB_DSN} -open-ai-key=${OPENAIKEY} 
+
 ## db/psql: connect to the database using psql
-.PHONY: db/sql
+.PHONY: db/psql
 db/psql:
 	psql ${GREENLIGHT_DB_DSN}
+	#psql postgres://postgres:postgres@localhost:5432/testdb?sslmode=disable
+	# PGPASSWORD=postgres psql -h localhost -p 5432 -U postgres -d testdb
+
+## db/show/subtypes: connect to the database using psql
+.PHONY: db/show/subtypes
+db/show/subtypes:
+	psql ${GREENLIGHT_DB_DSN} -c "SELECT * FROM subtypes;"
+
 
 ## db/migrations/new name=$1: create a new database migration
 .PHONY: db/migrations/new

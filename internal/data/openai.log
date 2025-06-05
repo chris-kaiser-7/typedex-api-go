@@ -1,0 +1,2526 @@
+2025/06/04 16:22:20 {
+  "id": "asst_qbL2VGtMgHlN5rTK4tp53xK1",
+  "object": "assistant",
+  "created_at": 1749068539,
+  "name": "test",
+  "description": null,
+  "model": "gpt-4o",
+  "instructions": "Please respond with the numbers 1234 and nothing else.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "reasoning_effort": null,
+  "tool_resources": {
+    "code_interpreter": {
+      "file_ids": []
+    }
+  },
+  "metadata": {},
+  "response_format": "auto"
+}
+2025/06/04 16:22:20 {
+  "error": {
+    "message": "Incorrect API key provided: 1234. You can find your API key at https://platform.openai.com/account/api-keys.",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": "invalid_api_key"
+  }
+}
+2025/06/04 16:22:23 {
+  "id": "asst_T2k0JQGkUIJXHnRhPOhbqKyb",
+  "object": "assistant",
+  "created_at": 1749068542,
+  "name": "Test Book",
+  "description": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "reasoning_effort": null,
+  "tool_resources": {
+    "code_interpreter": {
+      "file_ids": []
+    }
+  },
+  "metadata": {},
+  "response_format": "auto"
+}
+2025/06/04 16:22:23 {
+  "id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+  "object": "thread",
+  "created_at": 1749068542,
+  "metadata": {},
+  "tool_resources": {}
+}
+2025/06/04 16:22:23 {
+  "id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+  "object": "thread.message",
+  "created_at": 1749068543,
+  "assistant_id": null,
+  "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+  "run_id": null,
+  "role": "user",
+  "content": [
+    {
+      "type": "text",
+      "text": {
+        "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+        "annotations": []
+      }
+    }
+  ],
+  "attachments": [],
+  "metadata": {}
+}
+2025/06/04 16:22:25 {
+  "id": "run_aiqShNQsiTlaqcqH1lUkZRnG",
+  "object": "thread.run",
+  "created_at": 1749068544,
+  "assistant_id": "asst_T2k0JQGkUIJXHnRhPOhbqKyb",
+  "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+  "status": "queued",
+  "started_at": null,
+  "expires_at": 1749069144,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "reasoning_effort": null,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+2025/06/04 16:22:27 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vf33mc9ovw049X4eTtS8HHOv",
+      "object": "thread.message",
+      "created_at": 1749068545,
+      "assistant_id": "asst_T2k0JQGkUIJXHnRhPOhbqKyb",
+      "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+      "run_id": "run_aiqShNQsiTlaqcqH1lUkZRnG",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+      "object": "thread.message",
+      "created_at": 1749068543,
+      "assistant_id": null,
+      "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vf33mc9ovw049X4eTtS8HHOv",
+  "last_id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+  "has_more": false
+}
+2025/06/04 16:22:29 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vf33mc9ovw049X4eTtS8HHOv",
+      "object": "thread.message",
+      "created_at": 1749068545,
+      "assistant_id": "asst_T2k0JQGkUIJXHnRhPOhbqKyb",
+      "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+      "run_id": "run_aiqShNQsiTlaqcqH1lUkZRnG",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+      "object": "thread.message",
+      "created_at": 1749068543,
+      "assistant_id": null,
+      "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vf33mc9ovw049X4eTtS8HHOv",
+  "last_id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+  "has_more": false
+}
+2025/06/04 16:22:31 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vf33mc9ovw049X4eTtS8HHOv",
+      "object": "thread.message",
+      "created_at": 1749068545,
+      "assistant_id": "asst_T2k0JQGkUIJXHnRhPOhbqKyb",
+      "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+      "run_id": "run_aiqShNQsiTlaqcqH1lUkZRnG",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+      "object": "thread.message",
+      "created_at": 1749068543,
+      "assistant_id": null,
+      "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vf33mc9ovw049X4eTtS8HHOv",
+  "last_id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+  "has_more": false
+}
+2025/06/04 16:22:33 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vf33mc9ovw049X4eTtS8HHOv",
+      "object": "thread.message",
+      "created_at": 1749068545,
+      "assistant_id": "asst_T2k0JQGkUIJXHnRhPOhbqKyb",
+      "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+      "run_id": "run_aiqShNQsiTlaqcqH1lUkZRnG",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "```json\n[\n    {\n        \"name\": \"Forest Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"20\",\n        \"size\": \"Small\",\n        \"habitat\": \"Dense forests and wooded areas\",\n        \"description\": \"Forest Goblins are sly and stealthy, using their greenish-brown skin to blend into their woodland homes.\",\n        \"diet\": \"Omnivorous, with a preference for small game, berries, and nuts.\",\n        \"weaknesses\": \"Fire and bright light\"\n    },\n    {\n        \"name\": \"Cave Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"25\",\n        \"size\": \"Small\",\n        \"habitat\": \"Dark caves and underground tunnels\",\n        \"description\": \"Cave Goblins thrive in subterranean environments, with pale skin and well-developed night vision.\",\n        \"diet\": \"Omnivorous, feeding on fungus, insects, and cave-dwelling creatures.\",\n        \"weaknesses\": \"Sunlight and open spaces\"\n    },\n    {\n        \"name\": \"Swamp Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"22\",\n        \"size\": \"Small\",\n        \"habitat\": \"Swamps and marshlands\",\n        \"description\": \"Swamp Goblins are adapted to wet environments, with webbed feet and a fondness for boggy terrain.\",\n        \"diet\": \"Omnivorous, with a diet of fish, amphibians, and aquatic plants.\",\n        \"weaknesses\": \"Cold and icy conditions\"\n    }\n]\n```",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+      "object": "thread.message",
+      "created_at": 1749068543,
+      "assistant_id": null,
+      "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vf33mc9ovw049X4eTtS8HHOv",
+  "last_id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+  "has_more": false
+}
+2025/06/04 16:22:33 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vf33mc9ovw049X4eTtS8HHOv",
+      "object": "thread.message",
+      "created_at": 1749068545,
+      "assistant_id": "asst_T2k0JQGkUIJXHnRhPOhbqKyb",
+      "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+      "run_id": "run_aiqShNQsiTlaqcqH1lUkZRnG",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "```json\n[\n    {\n        \"name\": \"Forest Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"20\",\n        \"size\": \"Small\",\n        \"habitat\": \"Dense forests and wooded areas\",\n        \"description\": \"Forest Goblins are sly and stealthy, using their greenish-brown skin to blend into their woodland homes.\",\n        \"diet\": \"Omnivorous, with a preference for small game, berries, and nuts.\",\n        \"weaknesses\": \"Fire and bright light\"\n    },\n    {\n        \"name\": \"Cave Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"25\",\n        \"size\": \"Small\",\n        \"habitat\": \"Dark caves and underground tunnels\",\n        \"description\": \"Cave Goblins thrive in subterranean environments, with pale skin and well-developed night vision.\",\n        \"diet\": \"Omnivorous, feeding on fungus, insects, and cave-dwelling creatures.\",\n        \"weaknesses\": \"Sunlight and open spaces\"\n    },\n    {\n        \"name\": \"Swamp Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"22\",\n        \"size\": \"Small\",\n        \"habitat\": \"Swamps and marshlands\",\n        \"description\": \"Swamp Goblins are adapted to wet environments, with webbed feet and a fondness for boggy terrain.\",\n        \"diet\": \"Omnivorous, with a diet of fish, amphibians, and aquatic plants.\",\n        \"weaknesses\": \"Cold and icy conditions\"\n    }\n]\n```",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+      "object": "thread.message",
+      "created_at": 1749068543,
+      "assistant_id": null,
+      "thread_id": "thread_VEAfyk1XaFoviPf4D4R9c0m9",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vf33mc9ovw049X4eTtS8HHOv",
+  "last_id": "msg_4PoMd9NLyChogRxhj8gQzhuy",
+  "has_more": false
+}
+2025/06/04 16:22:33 {
+  "id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+  "object": "assistant",
+  "created_at": 1749068553,
+  "name": "Test Book",
+  "description": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "reasoning_effort": null,
+  "tool_resources": {
+    "code_interpreter": {
+      "file_ids": []
+    }
+  },
+  "metadata": {},
+  "response_format": "auto"
+}
+2025/06/04 16:22:34 {
+  "id": "thread_llF1Z47kXGrvsKpaO723sEni",
+  "object": "thread",
+  "created_at": 1749068553,
+  "metadata": {},
+  "tool_resources": {}
+}
+2025/06/04 16:22:34 {
+  "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "object": "thread.message",
+  "created_at": 1749068554,
+  "assistant_id": null,
+  "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+  "run_id": null,
+  "role": "user",
+  "content": [
+    {
+      "type": "text",
+      "text": {
+        "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+        "annotations": []
+      }
+    }
+  ],
+  "attachments": [],
+  "metadata": {}
+}
+2025/06/04 16:22:36 {
+  "id": "run_U3ukrakPjqqwacJWvz3oSPev",
+  "object": "thread.run",
+  "created_at": 1749068554,
+  "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+  "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+  "status": "queued",
+  "started_at": null,
+  "expires_at": 1749069154,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "reasoning_effort": null,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+2025/06/04 16:22:38 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+      "object": "thread.message",
+      "created_at": 1749068557,
+      "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": "run_U3ukrakPjqqwacJWvz3oSPev",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+      "object": "thread.message",
+      "created_at": 1749068554,
+      "assistant_id": null,
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+  "last_id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "has_more": false
+}
+2025/06/04 16:22:40 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+      "object": "thread.message",
+      "created_at": 1749068557,
+      "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": "run_U3ukrakPjqqwacJWvz3oSPev",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+      "object": "thread.message",
+      "created_at": 1749068554,
+      "assistant_id": null,
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+  "last_id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "has_more": false
+}
+2025/06/04 16:22:42 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+      "object": "thread.message",
+      "created_at": 1749068557,
+      "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": "run_U3ukrakPjqqwacJWvz3oSPev",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+      "object": "thread.message",
+      "created_at": 1749068554,
+      "assistant_id": null,
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+  "last_id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "has_more": false
+}
+2025/06/04 16:22:44 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+      "object": "thread.message",
+      "created_at": 1749068557,
+      "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": "run_U3ukrakPjqqwacJWvz3oSPev",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+      "object": "thread.message",
+      "created_at": 1749068554,
+      "assistant_id": null,
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+  "last_id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "has_more": false
+}
+2025/06/04 16:22:46 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+      "object": "thread.message",
+      "created_at": 1749068557,
+      "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": "run_U3ukrakPjqqwacJWvz3oSPev",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+      "object": "thread.message",
+      "created_at": 1749068554,
+      "assistant_id": null,
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+  "last_id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "has_more": false
+}
+2025/06/04 16:22:48 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+      "object": "thread.message",
+      "created_at": 1749068557,
+      "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": "run_U3ukrakPjqqwacJWvz3oSPev",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+      "object": "thread.message",
+      "created_at": 1749068554,
+      "assistant_id": null,
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+  "last_id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "has_more": false
+}
+2025/06/04 16:22:50 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+      "object": "thread.message",
+      "created_at": 1749068557,
+      "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": "run_U3ukrakPjqqwacJWvz3oSPev",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+      "object": "thread.message",
+      "created_at": 1749068554,
+      "assistant_id": null,
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+  "last_id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "has_more": false
+}
+2025/06/04 16:22:51 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+      "object": "thread.message",
+      "created_at": 1749068557,
+      "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": "run_U3ukrakPjqqwacJWvz3oSPev",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+      "object": "thread.message",
+      "created_at": 1749068554,
+      "assistant_id": null,
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+  "last_id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "has_more": false
+}
+2025/06/04 16:22:54 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+      "object": "thread.message",
+      "created_at": 1749068557,
+      "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": "run_U3ukrakPjqqwacJWvz3oSPev",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "```json\n[\n  {\n    \"name\": \"Mountain Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"150\",\n    \"size\": \"Large\",\n    \"habitat\": \"Mountain ranges\",\n    \"description\": \"Mountain Orcs are strong, resilient, and skilled in navigating rocky terrains.\",\n    \"diet\": \"Carnivorous, often hunting mountain goats or sheep.\",\n    \"weaknesses\": \"Poor swimmers and vulnerable to cold weather.\"\n  },\n  {\n    \"name\": \"Forest Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"120\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Dense forests\",\n    \"description\": \"Forest Orcs blend into their woodland environment and are adept at ambushing prey.\",\n    \"diet\": \"Omnivorous, eating fruits and hunting forest creatures.\",\n    \"weaknesses\": \"Fire and traps set in the forest.\"\n  },\n  {\n    \"name\": \"Swamp Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"110\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Swamplands\",\n    \"description\": \"Swamp Orcs are adapted to wet, muddy environments and are known for their stealth.\",\n    \"diet\": \"Carnivorous, often consuming fish and amphibians.\",\n    \"weaknesses\": \"Insects and disease within the swamps.\"\n  },\n  {\n    \"name\": \"Desert Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"100\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Arid deserts\",\n    \"description\": \"Desert Orcs are endurance runners, withstanding long journeys in the heat.\",\n    \"diet\": \"Carnivorous, scavenging small desert animals.\",\n    \"weaknesses\": \"Lack of water and sandstorms.\"\n  },\n  {\n    \"name\": \"Cave Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"130\",\n    \"size\": \"Large\",\n    \"habitat\": \"Caves and underground tunnels\",\n    \"description\": \"Cave Orcs are strong, with excellent night vision and a sense of direction underground.\",\n    \"diet\": \"Carnivorous, eating bats and other cave-dwelling creatures.\",\n    \"weaknesses\": \"Daylight and loud noises.\"\n  },\n  {\n    \"name\": \"Plains Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"115\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Open plains and grasslands\",\n    \"description\": \"Plains Orcs are fast and agile, excellent at long-distance travel.\",\n    \"diet\": \"Omnivorous, eating grain and hunting grazing animals.\",\n    \"weaknesses\": \"Vision obscured by tall grass.\"\n  },\n  {\n    \"name\": \"Arctic Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"140\",\n    \"size\": \"Large\",\n    \"habitat\": \"Frozen tundra and icy regions\",\n    \"description\": \"Arctic Orcs are built for extreme cold, with thick fur and strong survival instincts.\",\n    \"diet\": \"Carnivorous, hunting seals and fish.\",\n    \"weaknesses\": \"Intense heat and treacherous ice formations.\"\n  },\n  {\n    \"name\": \"Coastal Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"125\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Coastal areas and cliffs\",\n    \"description\": \"Coastal Orcs are adept swimmers and skilled in maritime navigation.\",\n    \"diet\": \"Omnivorous, with a reliance on fish and sea birds.\",\n    \"weaknesses\": \"Stormy weather and strong ocean currents.\"\n  },\n  {\n    \"name\": \"Jungle Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"115\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Tropical jungles\",\n    \"description\": \"Jungle Orcs are agile and resourceful, able to use their environment to their advantage.\",\n    \"diet\": \"Omnivorous, consuming many types of fruit and small animals.\",\n    \"weaknesses\": \"Disease-carrying insects and oppressive humidity.\"\n  },\n  {\n    \"name\": \"Urban Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"105\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Cities and settlements\",\n    \"description\": \"Urban Orcs have adapted to life among humans, blending into society with ease.\",\n    \"diet\": \"Omnivorous, taking advantage of urban resources.\",\n    \"weaknesses\": \"Limited by urban regulations and human laws.\"\n  }\n]\n```",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+      "object": "thread.message",
+      "created_at": 1749068554,
+      "assistant_id": null,
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+  "last_id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "has_more": false
+}
+2025/06/04 16:22:54 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+      "object": "thread.message",
+      "created_at": 1749068557,
+      "assistant_id": "asst_HEtsLToBNzByl9A12EgscbaZ",
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": "run_U3ukrakPjqqwacJWvz3oSPev",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "```json\n[\n  {\n    \"name\": \"Mountain Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"150\",\n    \"size\": \"Large\",\n    \"habitat\": \"Mountain ranges\",\n    \"description\": \"Mountain Orcs are strong, resilient, and skilled in navigating rocky terrains.\",\n    \"diet\": \"Carnivorous, often hunting mountain goats or sheep.\",\n    \"weaknesses\": \"Poor swimmers and vulnerable to cold weather.\"\n  },\n  {\n    \"name\": \"Forest Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"120\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Dense forests\",\n    \"description\": \"Forest Orcs blend into their woodland environment and are adept at ambushing prey.\",\n    \"diet\": \"Omnivorous, eating fruits and hunting forest creatures.\",\n    \"weaknesses\": \"Fire and traps set in the forest.\"\n  },\n  {\n    \"name\": \"Swamp Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"110\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Swamplands\",\n    \"description\": \"Swamp Orcs are adapted to wet, muddy environments and are known for their stealth.\",\n    \"diet\": \"Carnivorous, often consuming fish and amphibians.\",\n    \"weaknesses\": \"Insects and disease within the swamps.\"\n  },\n  {\n    \"name\": \"Desert Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"100\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Arid deserts\",\n    \"description\": \"Desert Orcs are endurance runners, withstanding long journeys in the heat.\",\n    \"diet\": \"Carnivorous, scavenging small desert animals.\",\n    \"weaknesses\": \"Lack of water and sandstorms.\"\n  },\n  {\n    \"name\": \"Cave Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"130\",\n    \"size\": \"Large\",\n    \"habitat\": \"Caves and underground tunnels\",\n    \"description\": \"Cave Orcs are strong, with excellent night vision and a sense of direction underground.\",\n    \"diet\": \"Carnivorous, eating bats and other cave-dwelling creatures.\",\n    \"weaknesses\": \"Daylight and loud noises.\"\n  },\n  {\n    \"name\": \"Plains Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"115\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Open plains and grasslands\",\n    \"description\": \"Plains Orcs are fast and agile, excellent at long-distance travel.\",\n    \"diet\": \"Omnivorous, eating grain and hunting grazing animals.\",\n    \"weaknesses\": \"Vision obscured by tall grass.\"\n  },\n  {\n    \"name\": \"Arctic Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"140\",\n    \"size\": \"Large\",\n    \"habitat\": \"Frozen tundra and icy regions\",\n    \"description\": \"Arctic Orcs are built for extreme cold, with thick fur and strong survival instincts.\",\n    \"diet\": \"Carnivorous, hunting seals and fish.\",\n    \"weaknesses\": \"Intense heat and treacherous ice formations.\"\n  },\n  {\n    \"name\": \"Coastal Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"125\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Coastal areas and cliffs\",\n    \"description\": \"Coastal Orcs are adept swimmers and skilled in maritime navigation.\",\n    \"diet\": \"Omnivorous, with a reliance on fish and sea birds.\",\n    \"weaknesses\": \"Stormy weather and strong ocean currents.\"\n  },\n  {\n    \"name\": \"Jungle Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"115\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Tropical jungles\",\n    \"description\": \"Jungle Orcs are agile and resourceful, able to use their environment to their advantage.\",\n    \"diet\": \"Omnivorous, consuming many types of fruit and small animals.\",\n    \"weaknesses\": \"Disease-carrying insects and oppressive humidity.\"\n  },\n  {\n    \"name\": \"Urban Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"105\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Cities and settlements\",\n    \"description\": \"Urban Orcs have adapted to life among humans, blending into society with ease.\",\n    \"diet\": \"Omnivorous, taking advantage of urban resources.\",\n    \"weaknesses\": \"Limited by urban regulations and human laws.\"\n  }\n]\n```",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+      "object": "thread.message",
+      "created_at": 1749068554,
+      "assistant_id": null,
+      "thread_id": "thread_llF1Z47kXGrvsKpaO723sEni",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_XeFZWaHrZakdodOdsDw4bMRa",
+  "last_id": "msg_UO8VrHiyaIyuoObdoABw9dcJ",
+  "has_more": false
+}
+2025/06/04 16:29:13 {
+  "id": "asst_PUYEjPF7g1rSX0LH02wdghR1",
+  "object": "assistant",
+  "created_at": 1749068952,
+  "name": "test",
+  "description": null,
+  "model": "gpt-4o",
+  "instructions": "Please respond with the numbers 1234 and nothing else.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "reasoning_effort": null,
+  "tool_resources": {
+    "code_interpreter": {
+      "file_ids": []
+    }
+  },
+  "metadata": {},
+  "response_format": "auto"
+}
+2025/06/04 16:29:13 {
+  "error": {
+    "message": "Incorrect API key provided: 1234. You can find your API key at https://platform.openai.com/account/api-keys.",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": "invalid_api_key"
+  }
+}
+2025/06/04 16:29:14 {
+  "id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+  "object": "assistant",
+  "created_at": 1749068953,
+  "name": "Test Book",
+  "description": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "reasoning_effort": null,
+  "tool_resources": {
+    "code_interpreter": {
+      "file_ids": []
+    }
+  },
+  "metadata": {},
+  "response_format": "auto"
+}
+2025/06/04 16:29:13 {
+  "id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+  "object": "thread",
+  "created_at": 1749068953,
+  "metadata": {},
+  "tool_resources": {}
+}
+2025/06/04 16:29:14 {
+  "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "object": "thread.message",
+  "created_at": 1749068953,
+  "assistant_id": null,
+  "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+  "run_id": null,
+  "role": "user",
+  "content": [
+    {
+      "type": "text",
+      "text": {
+        "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+        "annotations": []
+      }
+    }
+  ],
+  "attachments": [],
+  "metadata": {}
+}
+2025/06/04 16:29:15 {
+  "id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+  "object": "thread.run",
+  "created_at": 1749068955,
+  "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+  "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+  "status": "queued",
+  "started_at": null,
+  "expires_at": 1749069555,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "reasoning_effort": null,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+2025/06/04 16:29:18 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:20 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:22 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:24 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:26 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:28 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:30 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:31 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:34 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:35 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:37 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:40 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:41 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "```json\n[\n    {\n        \"name\": \"Mountain Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"80-100\",\n        \"size\": \"Large\",\n        \"habitat\": \"Mountainous regions\",\n        \"description\": \"Rugged and tough, these orcs are adapted to cold and rocky terrains.\",\n        \"diet\": \"Primarily carnivorous, supplemented with hardy mountain plants.\",\n        \"weaknesses\": \"Vulnerable to extreme heat due to their cold habitat.\"\n    },\n    {\n        \"name\": \"Swamp Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"70-90\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Swamps and wetlands\",\n        \"description\": \"Dark-skinned and resilient, swamp orcs adapt to the murky and humid environments.\",\n        \"diet\": \"Omnivorous, feeding on both animals and swamp vegetation.\",\n        \"weaknesses\": \"Weaker during dry seasons when swamps are low on water.\"\n    },\n    {\n        \"name\": \"Desert Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"60-80\",\n        \"size\": \"Medium to Large\",\n        \"habitat\": \"Desert regions\",\n        \"description\": \"Lean and swift, these orcs can withstand the arid, harsh conditions of the desert.\",\n        \"diet\": \"Carnivorous, with a tendency to scavenge for water sources.\",\n        \"weaknesses\": \"Susceptible to dehydration if water sources are scarce.\"\n    },\n    {\n        \"name\": \"Forest Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"75-95\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Forests and woodlands\",\n        \"description\": \"Blended well into the greenery, these orcs are skilled hunters and gatherers.\",\n        \"diet\": \"Omnivorous, enjoying a balanced diet of meat and forest fruits.\",\n        \"weaknesses\": \"Vulnerable to forest fires which destroy their habitat.\"\n    },\n    {\n        \"name\": \"Tundra Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"85-105\",\n        \"size\": \"Large\",\n        \"habitat\": \"Tundras and icy plains\",\n        \"description\": \"Adapted to freezing temperatures, tundra orcs possess thick skin and fat layers.\",\n        \"diet\": \"Carnivorous, primarily relying on hunting arctic animals.\",\n        \"weaknesses\": \"Weak against sudden heat waves or fire-based attacks.\"\n    },\n    {\n        \"name\": \"Plains Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"70-90\",\n        \"size\": \"Medium to Large\",\n        \"habitat\": \"Plains and grasslands\",\n        \"description\": \"Nomadic and sturdy, plains orcs are agile and capable of long-distance travel.\",\n        \"diet\": \"Omnivorous, with a preference for herd animals.\",\n        \"weaknesses\": \"Limited protection against forest-like ambushes.\"\n    },\n    {\n        \"name\": \"Cave Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"80-100\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Caves and underground tunnels\",\n        \"description\": \"Adapted to darkness, cave orcs possess excellent night vision but are sensitive to light.\",\n        \"diet\": \"Omnivorous, consuming cave-dwelling creatures and fungus.\",\n        \"weaknesses\": \"Bright light exposure can cause temporary blindness.\"\n    },\n    {\n        \"name\": \"Urban Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"60-80\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Cities and towns\",\n        \"description\": \"These orcs have adapted to city life, often working as laborers or mercenaries.\",\n        \"diet\": \"Omnivorous, with access to a variety of foods available in urban markets.\",\n        \"weaknesses\": \"Lack wilderness survival skills like their rural counterparts.\"\n    },\n    {\n        \"name\": \"Sea Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"75-95\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Coastal regions and islands\",\n        \"description\": \"Seafaring orcs who excel in marine environments, possessing webbed hands and feet.\",\n        \"diet\": \"Primarily piscivorous, consuming fish and other sea creatures.\",\n        \"weaknesses\": \"Less adept on land due to their aquatic adaptations.\"\n    },\n    {\n        \"name\": \"Jungle Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"75-95\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Jungles and rainforests\",\n        \"description\": \"Agile and stealthy, jungle orcs have a deep connection with the dense vegetation.\",\n        \"diet\": \"Omnivorous, utilizing both hunting and gathering techniques.\",\n        \"weaknesses\": \"Prone to diseases carried by jungle parasites.\"\n    }\n]\n```",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:42 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+      "object": "thread.message",
+      "created_at": 1749068956,
+      "assistant_id": "asst_FKZNQ0h5lGgwnhNrNi0ubksw",
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": "run_Tvdxraw1z8yL84uj4FdYN0Gz",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "```json\n[\n    {\n        \"name\": \"Mountain Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"80-100\",\n        \"size\": \"Large\",\n        \"habitat\": \"Mountainous regions\",\n        \"description\": \"Rugged and tough, these orcs are adapted to cold and rocky terrains.\",\n        \"diet\": \"Primarily carnivorous, supplemented with hardy mountain plants.\",\n        \"weaknesses\": \"Vulnerable to extreme heat due to their cold habitat.\"\n    },\n    {\n        \"name\": \"Swamp Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"70-90\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Swamps and wetlands\",\n        \"description\": \"Dark-skinned and resilient, swamp orcs adapt to the murky and humid environments.\",\n        \"diet\": \"Omnivorous, feeding on both animals and swamp vegetation.\",\n        \"weaknesses\": \"Weaker during dry seasons when swamps are low on water.\"\n    },\n    {\n        \"name\": \"Desert Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"60-80\",\n        \"size\": \"Medium to Large\",\n        \"habitat\": \"Desert regions\",\n        \"description\": \"Lean and swift, these orcs can withstand the arid, harsh conditions of the desert.\",\n        \"diet\": \"Carnivorous, with a tendency to scavenge for water sources.\",\n        \"weaknesses\": \"Susceptible to dehydration if water sources are scarce.\"\n    },\n    {\n        \"name\": \"Forest Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"75-95\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Forests and woodlands\",\n        \"description\": \"Blended well into the greenery, these orcs are skilled hunters and gatherers.\",\n        \"diet\": \"Omnivorous, enjoying a balanced diet of meat and forest fruits.\",\n        \"weaknesses\": \"Vulnerable to forest fires which destroy their habitat.\"\n    },\n    {\n        \"name\": \"Tundra Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"85-105\",\n        \"size\": \"Large\",\n        \"habitat\": \"Tundras and icy plains\",\n        \"description\": \"Adapted to freezing temperatures, tundra orcs possess thick skin and fat layers.\",\n        \"diet\": \"Carnivorous, primarily relying on hunting arctic animals.\",\n        \"weaknesses\": \"Weak against sudden heat waves or fire-based attacks.\"\n    },\n    {\n        \"name\": \"Plains Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"70-90\",\n        \"size\": \"Medium to Large\",\n        \"habitat\": \"Plains and grasslands\",\n        \"description\": \"Nomadic and sturdy, plains orcs are agile and capable of long-distance travel.\",\n        \"diet\": \"Omnivorous, with a preference for herd animals.\",\n        \"weaknesses\": \"Limited protection against forest-like ambushes.\"\n    },\n    {\n        \"name\": \"Cave Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"80-100\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Caves and underground tunnels\",\n        \"description\": \"Adapted to darkness, cave orcs possess excellent night vision but are sensitive to light.\",\n        \"diet\": \"Omnivorous, consuming cave-dwelling creatures and fungus.\",\n        \"weaknesses\": \"Bright light exposure can cause temporary blindness.\"\n    },\n    {\n        \"name\": \"Urban Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"60-80\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Cities and towns\",\n        \"description\": \"These orcs have adapted to city life, often working as laborers or mercenaries.\",\n        \"diet\": \"Omnivorous, with access to a variety of foods available in urban markets.\",\n        \"weaknesses\": \"Lack wilderness survival skills like their rural counterparts.\"\n    },\n    {\n        \"name\": \"Sea Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"75-95\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Coastal regions and islands\",\n        \"description\": \"Seafaring orcs who excel in marine environments, possessing webbed hands and feet.\",\n        \"diet\": \"Primarily piscivorous, consuming fish and other sea creatures.\",\n        \"weaknesses\": \"Less adept on land due to their aquatic adaptations.\"\n    },\n    {\n        \"name\": \"Jungle Orc\",\n        \"race\": \"Orc\",\n        \"health\": \"75-95\",\n        \"size\": \"Medium\",\n        \"habitat\": \"Jungles and rainforests\",\n        \"description\": \"Agile and stealthy, jungle orcs have a deep connection with the dense vegetation.\",\n        \"diet\": \"Omnivorous, utilizing both hunting and gathering techniques.\",\n        \"weaknesses\": \"Prone to diseases carried by jungle parasites.\"\n    }\n]\n```",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+      "object": "thread.message",
+      "created_at": 1749068953,
+      "assistant_id": null,
+      "thread_id": "thread_BuTyg5ovpFrBtHdCGdGFyZfP",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_08TxgwtiJSck0W2bVRZmYB0w",
+  "last_id": "msg_Y7au6nxUI9hbV6iGBkBknqXT",
+  "has_more": false
+}
+2025/06/04 16:29:42 {
+  "id": "asst_BGDGOOzL7TqKtcuDD2xPsp2m",
+  "object": "assistant",
+  "created_at": 1749068981,
+  "name": "Test Book",
+  "description": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "reasoning_effort": null,
+  "tool_resources": {
+    "code_interpreter": {
+      "file_ids": []
+    }
+  },
+  "metadata": {},
+  "response_format": "auto"
+}
+2025/06/04 16:29:42 {
+  "id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+  "object": "thread",
+  "created_at": 1749068982,
+  "metadata": {},
+  "tool_resources": {}
+}
+2025/06/04 16:29:44 {
+  "id": "msg_9CMKBXstdAa58BnWEeIvgqyW",
+  "object": "thread.message",
+  "created_at": 1749068982,
+  "assistant_id": null,
+  "thread_id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+  "run_id": null,
+  "role": "user",
+  "content": [
+    {
+      "type": "text",
+      "text": {
+        "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+        "annotations": []
+      }
+    }
+  ],
+  "attachments": [],
+  "metadata": {}
+}
+2025/06/04 16:29:45 {
+  "id": "run_8MAdU1QknZlr213UN2uSY4nY",
+  "object": "thread.run",
+  "created_at": 1749068984,
+  "assistant_id": "asst_BGDGOOzL7TqKtcuDD2xPsp2m",
+  "thread_id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+  "status": "queued",
+  "started_at": null,
+  "expires_at": 1749069584,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "reasoning_effort": null,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+2025/06/04 16:29:47 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_0lpik33n517QHbLpOaYpVyYl",
+      "object": "thread.message",
+      "created_at": 1749068985,
+      "assistant_id": "asst_BGDGOOzL7TqKtcuDD2xPsp2m",
+      "thread_id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+      "run_id": "run_8MAdU1QknZlr213UN2uSY4nY",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_9CMKBXstdAa58BnWEeIvgqyW",
+      "object": "thread.message",
+      "created_at": 1749068982,
+      "assistant_id": null,
+      "thread_id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_0lpik33n517QHbLpOaYpVyYl",
+  "last_id": "msg_9CMKBXstdAa58BnWEeIvgqyW",
+  "has_more": false
+}
+2025/06/04 16:29:49 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_0lpik33n517QHbLpOaYpVyYl",
+      "object": "thread.message",
+      "created_at": 1749068985,
+      "assistant_id": "asst_BGDGOOzL7TqKtcuDD2xPsp2m",
+      "thread_id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+      "run_id": "run_8MAdU1QknZlr213UN2uSY4nY",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_9CMKBXstdAa58BnWEeIvgqyW",
+      "object": "thread.message",
+      "created_at": 1749068982,
+      "assistant_id": null,
+      "thread_id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_0lpik33n517QHbLpOaYpVyYl",
+  "last_id": "msg_9CMKBXstdAa58BnWEeIvgqyW",
+  "has_more": false
+}
+2025/06/04 16:29:51 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_0lpik33n517QHbLpOaYpVyYl",
+      "object": "thread.message",
+      "created_at": 1749068985,
+      "assistant_id": "asst_BGDGOOzL7TqKtcuDD2xPsp2m",
+      "thread_id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+      "run_id": "run_8MAdU1QknZlr213UN2uSY4nY",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "```json\n[\n    {\n        \"name\": \"Forest Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"20\",\n        \"size\": \"Small\",\n        \"habitat\": \"Forests\",\n        \"description\": \"Forest Goblins are small, green-skinned creatures who dwell in wooded areas. They are adept at moving silently and blend easily into their surroundings.\",\n        \"diet\": \"Omnivorous, primarily berries, insects, and small animals.\",\n        \"weaknesses\": \"Bright light and fire.\"\n    },\n    {\n        \"name\": \"Cave Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"25\",\n        \"size\": \"Small\",\n        \"habitat\": \"Caves and subterranean environments\",\n        \"description\": \"Cave Goblins are nocturnal beings with pale skin and large, sensitive eyes. They are excellent miners and have a knack for finding precious minerals.\",\n        \"diet\": \"Omnivorous, primarily fungi and underground insects.\",\n        \"weaknesses\": \"Daylight and open spaces.\"\n    },\n    {\n        \"name\": \"Swamp Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"22\",\n        \"size\": \"Small\",\n        \"habitat\": \"Swamps and marshlands\",\n        \"description\": \"Swamp Goblins have slimy skin and a pungent odor that helps them blend into their marshy environments. They are skilled swimmers and can move effortlessly through bogs.\",\n        \"diet\": \"Omnivorous, primarily fish, amphibians, and marsh plants.\",\n        \"weaknesses\": \"Dry environments and freezing temperatures.\"\n    }\n]\n```",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_9CMKBXstdAa58BnWEeIvgqyW",
+      "object": "thread.message",
+      "created_at": 1749068982,
+      "assistant_id": null,
+      "thread_id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_0lpik33n517QHbLpOaYpVyYl",
+  "last_id": "msg_9CMKBXstdAa58BnWEeIvgqyW",
+  "has_more": false
+}
+2025/06/04 16:29:51 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_0lpik33n517QHbLpOaYpVyYl",
+      "object": "thread.message",
+      "created_at": 1749068985,
+      "assistant_id": "asst_BGDGOOzL7TqKtcuDD2xPsp2m",
+      "thread_id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+      "run_id": "run_8MAdU1QknZlr213UN2uSY4nY",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "```json\n[\n    {\n        \"name\": \"Forest Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"20\",\n        \"size\": \"Small\",\n        \"habitat\": \"Forests\",\n        \"description\": \"Forest Goblins are small, green-skinned creatures who dwell in wooded areas. They are adept at moving silently and blend easily into their surroundings.\",\n        \"diet\": \"Omnivorous, primarily berries, insects, and small animals.\",\n        \"weaknesses\": \"Bright light and fire.\"\n    },\n    {\n        \"name\": \"Cave Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"25\",\n        \"size\": \"Small\",\n        \"habitat\": \"Caves and subterranean environments\",\n        \"description\": \"Cave Goblins are nocturnal beings with pale skin and large, sensitive eyes. They are excellent miners and have a knack for finding precious minerals.\",\n        \"diet\": \"Omnivorous, primarily fungi and underground insects.\",\n        \"weaknesses\": \"Daylight and open spaces.\"\n    },\n    {\n        \"name\": \"Swamp Goblin\",\n        \"race\": \"Goblin\",\n        \"health\": \"22\",\n        \"size\": \"Small\",\n        \"habitat\": \"Swamps and marshlands\",\n        \"description\": \"Swamp Goblins have slimy skin and a pungent odor that helps them blend into their marshy environments. They are skilled swimmers and can move effortlessly through bogs.\",\n        \"diet\": \"Omnivorous, primarily fish, amphibians, and marsh plants.\",\n        \"weaknesses\": \"Dry environments and freezing temperatures.\"\n    }\n]\n```",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_9CMKBXstdAa58BnWEeIvgqyW",
+      "object": "thread.message",
+      "created_at": 1749068982,
+      "assistant_id": null,
+      "thread_id": "thread_5j3OtwEsaXfVZU31AV2YyqF3",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_0lpik33n517QHbLpOaYpVyYl",
+  "last_id": "msg_9CMKBXstdAa58BnWEeIvgqyW",
+  "has_more": false
+}
+2025/06/04 16:47:35 {
+  "id": "asst_UqZfkILufL8iwBYMHFl8abkR",
+  "object": "assistant",
+  "created_at": 1749070054,
+  "name": "test",
+  "description": null,
+  "model": "gpt-4o",
+  "instructions": "Please respond with the numbers 1234 and nothing else.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "reasoning_effort": null,
+  "tool_resources": {
+    "code_interpreter": {
+      "file_ids": []
+    }
+  },
+  "metadata": {},
+  "response_format": "auto"
+}
+2025/06/04 16:47:35 {
+  "error": {
+    "message": "Incorrect API key provided: 1234. You can find your API key at https://platform.openai.com/account/api-keys.",
+    "type": "invalid_request_error",
+    "param": null,
+    "code": "invalid_api_key"
+  }
+}
+2025/06/04 16:47:36 {
+  "id": "asst_6BrC2QiH56v0z7yQyp57myup",
+  "object": "assistant",
+  "created_at": 1749070055,
+  "name": "Test Book",
+  "description": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "reasoning_effort": null,
+  "tool_resources": {
+    "code_interpreter": {
+      "file_ids": []
+    }
+  },
+  "metadata": {},
+  "response_format": "auto"
+}
+2025/06/04 16:47:36 {
+  "id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+  "object": "thread",
+  "created_at": 1749070056,
+  "metadata": {},
+  "tool_resources": {}
+}
+2025/06/04 16:47:37 {
+  "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "object": "thread.message",
+  "created_at": 1749070056,
+  "assistant_id": null,
+  "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+  "run_id": null,
+  "role": "user",
+  "content": [
+    {
+      "type": "text",
+      "text": {
+        "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+        "annotations": []
+      }
+    }
+  ],
+  "attachments": [],
+  "metadata": {}
+}
+2025/06/04 16:47:39 {
+  "id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+  "object": "thread.run",
+  "created_at": 1749070057,
+  "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+  "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+  "status": "queued",
+  "started_at": null,
+  "expires_at": 1749070657,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "reasoning_effort": null,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+2025/06/04 16:47:41 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:44 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:45 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:47 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:49 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:51 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:53 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:55 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:57 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:59 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "```json\n[\n  {\n    \"name\": \"Grunt Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"150\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Forests and Mountains\",\n    \"description\": \"Standard foot soldiers in Orc armies, known for their intimidating presence and brute strength.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Susceptible to cold climates and sophisticated magic.\"\n  },\n  {\n    \"name\": \"Berserker Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"200\",\n    \"size\": \"Large\",\n    \"habitat\": \"Tundras and Jungles\",\n    \"description\": \"Fearsome warriors that enter a state of rage, enhancing their strength and ferocity in combat.\",\n    \"diet\": \"Carnivorous\",\n    \"weaknesses\": \"Vulnerable to psychological manipulation and fatigue after rage subsides.\"\n  },\n  {\n    \"name\": \"Shaman Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"120\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Swamps and Caves\",\n    \"description\": \"Mystical leaders that guide their tribes with spiritual wisdom and elemental magic.\",\n    \"diet\": \"Herbivorous\",\n    \"weaknesses\": \"Physically weaker and susceptible to direct combat injuries.\"\n  },\n  {\n    \"name\": \"Scout Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"100\",\n    \"size\": \"Small\",\n    \"habitat\": \"Plains and Hills\",\n    \"description\": \"Nimble and quick, these orcs are adept at reconnaissance, gathering intelligence for larger movements.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Low defensive capabilities and endurance.\"\n  },\n  {\n    \"name\": \"Warlord Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"300\",\n    \"size\": \"Large\",\n    \"habitat\": \"Strongholds and War Camps\",\n    \"description\": \"Respected and feared leaders that rule over Orc factions, exhibiting superior tactical skills and strength.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Tend to be overconfident and are primary targets in battles.\"\n  },\n  {\n    \"name\": \"Mountain Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"180\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Mountain Ranges\",\n    \"description\": \"Adapted to high altitudes, these orcs are experts at mountain warfare and survival in harsh climates.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Sensitive to lowland environments and extreme warmth.\"\n  },\n  {\n    \"name\": \"Sea Raider Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"160\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Coastal Regions\",\n    \"description\": \"Masters of naval warfare, they plunder coastal settlements with swift and deadly attacks.\",\n    \"diet\": \"Carnivorous\",\n    \"weaknesses\": \"Limited land combat skills and weak against defensive structures.\"\n  },\n  {\n    \"name\": \"Feral Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"130\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Dense Jungles\",\n    \"description\": \"Wild and untamed, these orcs rely on primal instincts for survival, often hostile to outsiders.\",\n    \"diet\": \"Carnivorous\",\n    \"weaknesses\": \"Poor in cooperative tactics and exposed to deception.\"\n  },\n  {\n    \"name\": \"Smith Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"140\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Volcanic Regions\",\n    \"description\": \"Renowned for their metallurgy skills, providing weapons and armor for Orc armies.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Vulnerable to long-range attacks due to limited physical defense strategies.\"\n  },\n  {\n    \"name\": \"Nightmare Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"220\",\n    \"size\": \"Large\",\n    \"habitat\": \"Underground Lairs\",\n    \"description\": \"Terrifying creatures that attack under the cover of night, causing chaos and fear.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Frail in daylight and exposed to light-based magics.\"\n  }\n]\n```",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:59 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+      "object": "thread.message",
+      "created_at": 1749070060,
+      "assistant_id": "asst_6BrC2QiH56v0z7yQyp57myup",
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": "run_54mrxcFmuabGjMD1kI5j0wOZ",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "```json\n[\n  {\n    \"name\": \"Grunt Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"150\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Forests and Mountains\",\n    \"description\": \"Standard foot soldiers in Orc armies, known for their intimidating presence and brute strength.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Susceptible to cold climates and sophisticated magic.\"\n  },\n  {\n    \"name\": \"Berserker Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"200\",\n    \"size\": \"Large\",\n    \"habitat\": \"Tundras and Jungles\",\n    \"description\": \"Fearsome warriors that enter a state of rage, enhancing their strength and ferocity in combat.\",\n    \"diet\": \"Carnivorous\",\n    \"weaknesses\": \"Vulnerable to psychological manipulation and fatigue after rage subsides.\"\n  },\n  {\n    \"name\": \"Shaman Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"120\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Swamps and Caves\",\n    \"description\": \"Mystical leaders that guide their tribes with spiritual wisdom and elemental magic.\",\n    \"diet\": \"Herbivorous\",\n    \"weaknesses\": \"Physically weaker and susceptible to direct combat injuries.\"\n  },\n  {\n    \"name\": \"Scout Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"100\",\n    \"size\": \"Small\",\n    \"habitat\": \"Plains and Hills\",\n    \"description\": \"Nimble and quick, these orcs are adept at reconnaissance, gathering intelligence for larger movements.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Low defensive capabilities and endurance.\"\n  },\n  {\n    \"name\": \"Warlord Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"300\",\n    \"size\": \"Large\",\n    \"habitat\": \"Strongholds and War Camps\",\n    \"description\": \"Respected and feared leaders that rule over Orc factions, exhibiting superior tactical skills and strength.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Tend to be overconfident and are primary targets in battles.\"\n  },\n  {\n    \"name\": \"Mountain Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"180\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Mountain Ranges\",\n    \"description\": \"Adapted to high altitudes, these orcs are experts at mountain warfare and survival in harsh climates.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Sensitive to lowland environments and extreme warmth.\"\n  },\n  {\n    \"name\": \"Sea Raider Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"160\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Coastal Regions\",\n    \"description\": \"Masters of naval warfare, they plunder coastal settlements with swift and deadly attacks.\",\n    \"diet\": \"Carnivorous\",\n    \"weaknesses\": \"Limited land combat skills and weak against defensive structures.\"\n  },\n  {\n    \"name\": \"Feral Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"130\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Dense Jungles\",\n    \"description\": \"Wild and untamed, these orcs rely on primal instincts for survival, often hostile to outsiders.\",\n    \"diet\": \"Carnivorous\",\n    \"weaknesses\": \"Poor in cooperative tactics and exposed to deception.\"\n  },\n  {\n    \"name\": \"Smith Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"140\",\n    \"size\": \"Medium\",\n    \"habitat\": \"Volcanic Regions\",\n    \"description\": \"Renowned for their metallurgy skills, providing weapons and armor for Orc armies.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Vulnerable to long-range attacks due to limited physical defense strategies.\"\n  },\n  {\n    \"name\": \"Nightmare Orc\",\n    \"race\": \"Orc\",\n    \"health\": \"220\",\n    \"size\": \"Large\",\n    \"habitat\": \"Underground Lairs\",\n    \"description\": \"Terrifying creatures that attack under the cover of night, causing chaos and fear.\",\n    \"diet\": \"Omnivorous\",\n    \"weaknesses\": \"Frail in daylight and exposed to light-based magics.\"\n  }\n]\n```",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    },
+    {
+      "id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+      "object": "thread.message",
+      "created_at": 1749070056,
+      "assistant_id": null,
+      "thread_id": "thread_yCHo2oGAyQkJXt110g8MlJuj",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 10 subtypes of Orc. Type Orc has no ansestry.",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_vrXFNPByWGv4SFdNVSHJ3Rct",
+  "last_id": "msg_V9dVCMDURJ625E7rX4BUtOTe",
+  "has_more": false
+}
+2025/06/04 16:47:59 {
+  "id": "asst_4XtHy65cKmp7na1jv44K4v9U",
+  "object": "assistant",
+  "created_at": 1749070079,
+  "name": "Test Book",
+  "description": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "top_p": 1.0,
+  "temperature": 1.0,
+  "reasoning_effort": null,
+  "tool_resources": {
+    "code_interpreter": {
+      "file_ids": []
+    }
+  },
+  "metadata": {},
+  "response_format": "auto"
+}
+2025/06/04 16:48:00 {
+  "id": "thread_Pc8Su2FiKMx0KZBFk8DZ2g21",
+  "object": "thread",
+  "created_at": 1749070079,
+  "metadata": {},
+  "tool_resources": {}
+}
+2025/06/04 16:48:00 {
+  "id": "msg_i6Jp7JIJvPVWO9zSlY8s15da",
+  "object": "thread.message",
+  "created_at": 1749070080,
+  "assistant_id": null,
+  "thread_id": "thread_Pc8Su2FiKMx0KZBFk8DZ2g21",
+  "run_id": null,
+  "role": "user",
+  "content": [
+    {
+      "type": "text",
+      "text": {
+        "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+        "annotations": []
+      }
+    }
+  ],
+  "attachments": [],
+  "metadata": {}
+}
+2025/06/04 16:48:01 {
+  "id": "run_PkYUyPefAapfr6QTIwKT5YFQ",
+  "object": "thread.run",
+  "created_at": 1749070081,
+  "assistant_id": "asst_4XtHy65cKmp7na1jv44K4v9U",
+  "thread_id": "thread_Pc8Su2FiKMx0KZBFk8DZ2g21",
+  "status": "queued",
+  "started_at": null,
+  "expires_at": 1749070681,
+  "cancelled_at": null,
+  "failed_at": null,
+  "completed_at": null,
+  "required_action": null,
+  "last_error": null,
+  "model": "gpt-4o",
+  "instructions": "This GPT generates lists of subtypes when given a classification of a creature, a general description of a creature, and a ancestry of a creature. It provides specific examples based on the type and number requested. The subtypes should have a logical connection to its parent and ancestry. The GPT ensures that the subtypes are relevant and well-known, avoiding obscure references unless specified otherwise. It will give concise, accurate lists that are easy to understand. When replying to a prompt, the response should always be in JSON format and contain no other text. The response should be a list of types. Each type should have the following fields: [race,health,size,habitat,description,diet,weaknesses]. Here is an example of what the structure of the json should look like: ```json{\"name\":\"the name\",\"race\": \"The race of the character.\",\"health\": \"The amount of base hp points the character has.\",\"size\": \"The general size of the character.\",\"habitat\": \"The habitat that the character lives in.\",\"description\": \"A general description of the character.\",\"diet\": \"the type of food they eat\",\"weaknesses\": \"what the character is weak agaianst\"}```",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "tool_resources": {},
+  "metadata": {},
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "reasoning_effort": null,
+  "max_completion_tokens": null,
+  "max_prompt_tokens": null,
+  "truncation_strategy": {
+    "type": "auto",
+    "last_messages": null
+  },
+  "incomplete_details": null,
+  "usage": null,
+  "response_format": "auto",
+  "tool_choice": "auto",
+  "parallel_tool_calls": true
+}
+2025/06/04 16:48:04 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_i6Jp7JIJvPVWO9zSlY8s15da",
+      "object": "thread.message",
+      "created_at": 1749070080,
+      "assistant_id": null,
+      "thread_id": "thread_Pc8Su2FiKMx0KZBFk8DZ2g21",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_i6Jp7JIJvPVWO9zSlY8s15da",
+  "last_id": "msg_i6Jp7JIJvPVWO9zSlY8s15da",
+  "has_more": false
+}
+2025/06/04 16:48:04 {
+  "object": "list",
+  "data": [
+    {
+      "id": "msg_i6Jp7JIJvPVWO9zSlY8s15da",
+      "object": "thread.message",
+      "created_at": 1749070080,
+      "assistant_id": null,
+      "thread_id": "thread_Pc8Su2FiKMx0KZBFk8DZ2g21",
+      "run_id": null,
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": {
+            "value": "Please create 3 subtypes of Goblin. Type Goblin has the ansestry Orc",
+            "annotations": []
+          }
+        }
+      ],
+      "attachments": [],
+      "metadata": {}
+    }
+  ],
+  "first_id": "msg_i6Jp7JIJvPVWO9zSlY8s15da",
+  "last_id": "msg_i6Jp7JIJvPVWO9zSlY8s15da",
+  "has_more": false
+}
