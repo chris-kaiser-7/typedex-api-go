@@ -41,6 +41,7 @@ db/psql:
 	psql ${GREENLIGHT_DB_DSN}
 	#psql postgres://postgres:postgres@localhost:5432/testdb?sslmode=disable
 	# PGPASSWORD=postgres psql -h localhost -p 5432 -U postgres -d testdb
+	#
 
 ## db/show/subtypes: connect to the database using psql
 .PHONY: db/show/subtypes
@@ -95,6 +96,7 @@ build/api:
 	go build -ldflags '-s -w' -o ./bin/api ./cmd/api
 	GOOS=linux GOARCH=amd64 go build -ldflags='-s -w' -o=./bin/linux_amd64/api ./cmd/api
 
+
 # ==================================================================================== #
 # PRODUCTION
 # ==================================================================================== #
@@ -104,20 +106,20 @@ production_host_ip = '144.126.210.226'
 ## production/connect: connect to the production server
 .PHONY: production/connect
 production/connect:
-	ssh greenlight@${production_host_ip}
+	kubectl exec -it ${POD_NAME} -- psql -h localhost -U ${PSQL_USERNAME} -p 5432 ${DB_NAME}
 
-## production/deploy/api: deploy the api to production
-.PHONY: production/deploy/api
-production/deploy/api:
-	rsync -P ./bin/linux_amd64/api greenlight@${production_host_ip}:~
-	rsync -rP --delete ./migrations greenlight@${production_host_ip}:~
-	rsync -P ./remote/production/api.service greenlight@${production_host_ip}:~
-	rsync -P ./remote/production/Caddyfile greenlight@${production_host_ip}:~
-	ssh -t greenlight@${production_host_ip} '\
-		migrate -path ~/migrations -database $$GREENLIGHT_DB_DSN up \
-        && sudo mv ~/api.service /etc/systemd/system/ \
-        && sudo systemctl enable api \
-        && sudo systemctl restart api \
-        && sudo mv ~/Caddyfile /etc/caddy/ \
-        && sudo systemctl reload caddy \
-      '
+## production/database/install deploy the database to production
+.PHONY: production/database/install
+production/database/install:
+	helm install typedex ./charts/postgres/
+
+## production/database/uninstall deploy the database to production
+.PHONY: production/database/uninstall
+production/database/uninstall:
+	helm uninstall typedex ./charts/postgres/
+
+## production/api/repo_deploy: deploy the database to production from repot
+.PHONY: production/api/repo_deploy
+production/api/repo_deploy:
+	oc project ${PROJECT_NAME}
+	oc start-build ${API_NAME}

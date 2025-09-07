@@ -25,3 +25,6 @@ env.bak/
 
 # https/tls
 tls/
+
+# charts
+charts/

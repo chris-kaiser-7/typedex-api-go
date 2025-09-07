@@ -249,7 +249,8 @@ func (s SubtypeDataAccess) generateChildren(parent *Subtype, count int) ([]Subty
 
 	var children []map[string]string
 
-	_ = json.Unmarshal([]byte(childrenString[7:r]), &children)
+	err = json.Unmarshal([]byte(childrenString[7:r]), &children)
+
 	fieldCount := len(parent.Book.Fields)
 	result := make([]Subtype, len(children))
 
